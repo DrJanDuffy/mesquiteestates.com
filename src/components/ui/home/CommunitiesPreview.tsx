@@ -73,12 +73,20 @@ export default function CommunitiesPreview() {
           ))}
         </div>
         <div className="text-center mt-8">
-          <Link
-            href="/communities"
-            className="text-indigo-900 font-semibold hover:text-indigo-700 transition duration-300"
-          >
-            View All Communities →
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Link
+              href="/Sun_City_Mesquite"
+              className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300 shadow-lg"
+            >
+              Explore Sun City Mesquite →
+            </Link>
+            <Link
+              href="/communities"
+              className="text-indigo-900 font-semibold hover:text-indigo-700 transition duration-300"
+            >
+              View All Communities →
+            </Link>
+          </div>
         </div>
       </div>
     </section>

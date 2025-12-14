@@ -26,13 +26,21 @@ export default function Services() {
             📞 Call/Text: 702-718-2228
           </a>
         </div>
-        <p className="text-base text-gray-700 max-w-3xl mx-auto">
+        <p className="text-base text-gray-700 max-w-3xl mx-auto mb-4">
           As your trusted Mesquite realtor, Dr. Jan Duffy provides professional realtor services that encompass all aspects of 
-          buying and selling real estate in Mesquite. Our expertise in Mesquite homes, golf course properties, and custom lots 
+          buying and selling real estate in Mesquite. Our expertise in Mesquite homes, golf course properties, 55+ communities, and custom lots 
           ensures that clients receive expert guidance throughout their real estate journey. Whether you&apos;re seeking golf homes 
-          on championship courses, family residences, or investment properties, our comprehensive realtor services make the process 
+          on championship courses, active adult living in Sun City Mesquite, family residences, or investment properties, our comprehensive realtor services make the process 
           of finding and purchasing Mesquite real estate smooth and successful.
         </p>
+        <div className="text-center mb-6">
+          <Link
+            href="/Sun_City_Mesquite"
+            className="inline-block bg-indigo-900 hover:bg-indigo-800 text-white font-semibold px-6 py-2 rounded-lg transition duration-300"
+          >
+            Explore Sun City Mesquite 55+ Community →
+          </Link>
+        </div>
       </section>
 
       {/* H2 Section 1 */}
@@ -52,6 +60,39 @@ export default function Services() {
           nature of our services ensures that clients have access to market knowledge, property evaluation, negotiation expertise, 
           and transaction coordination that simplifies the real estate process in Mesquite.
         </p>
+      </section>
+
+      {/* 55+ Communities Highlight */}
+      <section className="mb-16 bg-gradient-to-r from-indigo-50 to-blue-50 p-8 rounded-lg">
+        <div className="text-center mb-6">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-4">
+            Specializing in 55+ Active Adult Communities
+          </h2>
+          <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto">
+            Dr. Jan Duffy is an expert in Sun City Mesquite, Nevada&apos;s premier Del Webb 55+ community. From floor plans and 
+            amenities to golf course living at Conestoga Golf Club, get specialized guidance for active adult living.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/Sun_City_Mesquite"
+              className="bg-indigo-900 hover:bg-indigo-800 text-white font-semibold px-8 py-3 rounded-lg transition duration-300"
+            >
+              Sun City Mesquite Guide
+            </Link>
+            <Link
+              href="/Sun_City_Mesquite_Floor_Plans"
+              className="bg-white hover:bg-gray-100 text-indigo-900 font-semibold px-8 py-3 rounded-lg transition duration-300 border-2 border-indigo-900"
+            >
+              View Floor Plans
+            </Link>
+            <Link
+              href="/Sun_City_Mesquite_Amenities"
+              className="bg-white hover:bg-gray-100 text-indigo-900 font-semibold px-8 py-3 rounded-lg transition duration-300 border-2 border-indigo-900"
+            >
+              Explore Amenities
+            </Link>
+          </div>
+        </div>
       </section>
 
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
@@ -75,6 +116,11 @@ export default function Services() {
             title: "Property Investment",
             description: "Strategic investment advice for buyers looking to invest in Mesquite. Understand the growth potential and long-term value of properties in this desirable location.",
             link: "/Contact_us"
+          },
+          {
+            title: "55+ Community Expertise",
+            description: "Specialized knowledge of Sun City Mesquite and active adult communities. Expert guidance on Del Webb homes, floor plans, amenities, and the 55+ lifestyle.",
+            link: "/Sun_City_Mesquite"
           },
           {
             title: "Area Expertise",

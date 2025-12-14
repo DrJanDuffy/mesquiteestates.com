@@ -55,6 +55,41 @@ export default function Contact() {
           </div>
         </section>
 
+        {/* Quick Links Section */}
+        <section className="mb-16 bg-indigo-50 p-8 rounded-lg">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-6 text-center">What Can We Help You With?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Link
+              href="/Sun_City_Mesquite"
+              className="bg-white hover:bg-indigo-100 p-6 rounded-lg shadow-md text-center transition duration-300"
+            >
+              <h3 className="text-xl font-semibold text-indigo-900 mb-2">Sun City Mesquite</h3>
+              <p className="text-gray-600 text-sm">55+ Community Info</p>
+            </Link>
+            <Link
+              href="/Mesquite_Homes_For_Sale"
+              className="bg-white hover:bg-indigo-100 p-6 rounded-lg shadow-md text-center transition duration-300"
+            >
+              <h3 className="text-xl font-semibold text-indigo-900 mb-2">Homes for Sale</h3>
+              <p className="text-gray-600 text-sm">Browse Properties</p>
+            </Link>
+            <Link
+              href="/Golf_Homes_Mesquite"
+              className="bg-white hover:bg-indigo-100 p-6 rounded-lg shadow-md text-center transition duration-300"
+            >
+              <h3 className="text-xl font-semibold text-indigo-900 mb-2">Golf Homes</h3>
+              <p className="text-gray-600 text-sm">Golf Course Living</p>
+            </Link>
+            <Link
+              href="/Services"
+              className="bg-white hover:bg-indigo-100 p-6 rounded-lg shadow-md text-center transition duration-300"
+            >
+              <h3 className="text-xl font-semibold text-indigo-900 mb-2">Our Services</h3>
+              <p className="text-gray-600 text-sm">Learn More</p>
+            </Link>
+          </div>
+        </section>
+
         <section className="mb-16">
           <div className="bg-white p-8 rounded-lg shadow-lg">
             <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-6">Send Us a Message</h2>
