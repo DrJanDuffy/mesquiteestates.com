@@ -66,7 +66,6 @@ export default function Navbar() {
               {[
                 { href: "/Mesquite_Homes_For_Sale", label: "Homes for Sale" },
                 { href: "/Golf_Homes_Mesquite", label: "Golf Homes" },
-                { href: "/Sun_City_Mesquite", label: "55+ Living" },
                 { href: "/About_Mesquite", label: "About Mesquite" },
                 { href: "/Services", label: "Services" },
                 { href: "/Dashboard", label: "Market Analysis" },
@@ -80,6 +79,61 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
+              
+              {/* Sun City Mesquite Dropdown */}
+              <div 
+                className="relative"
+                onMouseEnter={() => setIsSunCityDropdownOpen(true)}
+                onMouseLeave={() => setIsSunCityDropdownOpen(false)}
+              >
+                <button
+                  onClick={() => setIsSunCityDropdownOpen(!isSunCityDropdownOpen)}
+                  className="flex items-center text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out"
+                  aria-expanded={isSunCityDropdownOpen}
+                  aria-haspopup="true"
+                >
+                  55+ Living
+                  <FaChevronDown className={`ml-1 text-xs transition-transform duration-200 ${isSunCityDropdownOpen ? 'rotate-180' : ''}`} />
+                </button>
+                
+                {/* Dropdown Menu */}
+                <div
+                  className={`absolute top-full left-0 mt-1 w-56 bg-white rounded-md shadow-lg border border-gray-200 z-50 ${
+                    isSunCityDropdownOpen ? 'block' : 'hidden'
+                  } lg:block`}
+                >
+                  <div className="py-1">
+                    <Link
+                      href="/Sun_City_Mesquite"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition duration-150"
+                      onClick={() => setIsSunCityDropdownOpen(false)}
+                    >
+                      Sun City Mesquite
+                    </Link>
+                    <Link
+                      href="/Sun_City_Mesquite_Floor_Plans"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition duration-150"
+                      onClick={() => setIsSunCityDropdownOpen(false)}
+                    >
+                      Floor Plans
+                    </Link>
+                    <Link
+                      href="/Sun_City_Mesquite_Amenities"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition duration-150"
+                      onClick={() => setIsSunCityDropdownOpen(false)}
+                    >
+                      Amenities
+                    </Link>
+                    <Link
+                      href="/Conestoga_Golf_Mesquite"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition duration-150"
+                      onClick={() => setIsSunCityDropdownOpen(false)}
+                    >
+                      Conestoga Golf Club
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
             <a 
               href="tel:702-718-2228" 
