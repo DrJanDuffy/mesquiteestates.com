@@ -218,14 +218,16 @@ export default function RealEstateShowcase() {
         <button
           ref={prevRef}
           className="hidden md:block absolute top-1/2 left-0 transform -translate-y-1/2 text-indigo-900 bg-transparent text-4xl px-4 py-2 rounded-md shadow-lg transition duration-300"
+          aria-label="Previous property"
         >
-          &lt;
+          <span aria-hidden="true">&lt;</span>
         </button>
         <button
           ref={nextRef}
           className="hidden md:block absolute top-1/2 right-0 transform -translate-y-1/2 text-indigo-900 bg-transparent text-4xl px-4 py-2 rounded-md shadow-lg transition duration-300"
+          aria-label="Next property"
         >
-          &gt;
+          <span aria-hidden="true">&gt;</span>
         </button>
       </div>
     </div>

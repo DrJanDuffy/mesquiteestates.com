@@ -76,6 +76,7 @@ export default function Contact() {
               <button
                 type="submit"
                 className="w-full py-3 bg-indigo-900 text-white text-lg font-bold rounded-lg hover:bg-indigo-800 transition duration-300"
+                aria-label="Send contact message"
               >
                 Send Message
               </button>

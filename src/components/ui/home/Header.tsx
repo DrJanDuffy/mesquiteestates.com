@@ -16,13 +16,24 @@ export default function Header() {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
     }, 5000);
 
-    // Load RealScout web components
+    // Load RealScout web components (defer to improve initial load)
     if (typeof window !== 'undefined' && !document.querySelector('script[src*="realscout-web-components"]')) {
-      const script = document.createElement('script');
-      script.src = 'https://em.realscout.com/widgets/realscout-web-components.umd.js';
-      script.type = 'module';
-      script.async = true;
-      document.head.appendChild(script);
+      // Use requestIdleCallback to defer loading until browser is idle
+      const loadScript = () => {
+        const script = document.createElement('script');
+        script.src = 'https://em.realscout.com/widgets/realscout-web-components.umd.js';
+        script.type = 'module';
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
+      };
+      
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadScript, { timeout: 2000 });
+      } else {
+        // Fallback for browsers without requestIdleCallback
+        setTimeout(loadScript, 1000);
+      }
     }
 
     return () => clearInterval(intervalId);
@@ -41,10 +52,13 @@ export default function Header() {
             >
               <Image
                 src={src}
-                alt={`Image ${index + 1}`}
+                alt={index === 0 ? "Mesquite Estates - Beautiful homes in Mesquite, Nevada" : `Mesquite Estates background image ${index + 1}`}
                 className="w-full h-full object-cover"
-                width={500}
-                height={500}
+                width={1920}
+                height={1080}
+                sizes="100vw"
+                priority={index === 0}
+                quality={85}
               />
             </div>
           ))}

@@ -36,16 +36,22 @@ export default function Navbar() {
             <button
               className="text-gray-700 focus:outline-none"
               onClick={handleMobileMenuToggle}
+              aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
             >
-              {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+              {isMobileMenuOpen ? <FaTimes size={24} aria-hidden="true" /> : <FaBars size={24} aria-hidden="true" />}
             </button>
           </div>
 
           {/* Desktop and Mobile Navigation Links */}
           <div
+            id="mobile-menu"
             className={`lg:flex lg:items-center absolute lg:relative top-full left-0 right-0 bg-white lg:bg-transparent ${
               isMobileMenuOpen ? "block" : "hidden"
             } transition-all duration-300 lg:transition-none`}
+            role="navigation"
+            aria-label="Main navigation"
           >
             <div className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-1 xl:space-x-4 p-4 lg:p-0">
               {[
