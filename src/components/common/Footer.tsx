@@ -179,10 +179,10 @@ const Footer = () => {
               <li className="flex items-center">
                 <FontAwesomeIcon icon={faEnvelope} className="h-5 w-5 mr-3 text-indigo-300" />
                 <a
-                  href="mailto:drduffy@mesquiteestates.com"
+                  href="mailto:DrDuffy@MesquiteEstates.com"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  drduffy@mesquiteestates.com
+                  DrDuffy@MesquiteEstates.com
                 </a>
               </li>
               <li className="flex items-center mt-2">

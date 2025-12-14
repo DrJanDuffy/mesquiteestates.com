@@ -28,8 +28,8 @@ export default function Contact() {
           <div className="flex flex-col items-center text-center">
             <FaEnvelope className="text-indigo-900 text-4xl mb-2" />
             <h2 className="text-2xl font-bold text-indigo-900 mb-2">Email Us</h2>
-            <a href="mailto:drduffy@mesquiteestates.com" className="text-lg text-gray-600 hover:text-indigo-900 transition duration-300">
-              drduffy@mesquiteestates.com
+            <a href="mailto:DrDuffy@MesquiteEstates.com" className="text-lg text-gray-600 hover:text-indigo-900 transition duration-300">
+              DrDuffy@MesquiteEstates.com
             </a>
           </div>
           <div className="flex flex-col items-center text-center">
