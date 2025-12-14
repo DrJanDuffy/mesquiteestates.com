@@ -8,7 +8,7 @@ import Team from "@/components/ui/About/Team";
 
 export default function About() {
   return (
-    <>
+    <React.Fragment>
       <Navbar />
       <div className="container mx-auto py-20 px-4 sm:px-6 lg:px-40 lg:mt-9 sm:mt-4">
         <section className="text-center mb-16">
@@ -212,6 +212,6 @@ export default function About() {
         <Team />
       </div>
       <Footer />
-    </>
+    </React.Fragment>
   );
 }
