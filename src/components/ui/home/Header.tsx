@@ -56,7 +56,7 @@ export default function Header() {
               Find Your Dream Home in Mesquite Estates | About an Hour North of Las Vegas
             </p>
 
-            <div className="flex items-center justify-center mb-4 max-w-2xl mx-auto">
+            <div className="flex items-center justify-center mb-4 max-w-4xl mx-auto w-full px-4">
               <realscout-simple-search agent-encoded-id="QWdlbnQtMjI1MDUw"></realscout-simple-search>
             </div>
           </div>

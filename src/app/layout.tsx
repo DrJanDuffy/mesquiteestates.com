@@ -26,8 +26,17 @@ export default function RootLayout({
               --rs-ss-searchbar-border-color: #8b572a;
               --rs-ss-box-shadow: 0 10px 15px -3px #0000001a;
               --rs-ss-widget-width: 100% !important;
-              max-width: 42rem;
+              width: 100% !important;
+              min-width: 20rem !important;
+              max-width: 56rem !important;
               margin: 0 auto;
+              display: block;
+              box-sizing: border-box;
+            }
+            @media (min-width: 768px) {
+              realscout-simple-search {
+                min-width: 42rem !important;
+              }
             }
           `
         }} />
