@@ -12,18 +12,30 @@ export default function Contact() {
       <div className="container mx-auto py-20 px-4 sm:px-6 lg:px-40 lg:mt-9 sm:mt-4">
         <section className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 mb-4">
-            Contact Us
+            Contact Dr. Jan Duffy
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600">
-            We&quot;e here to help. Reach out to us through any of the methods below, and we&#34;ll get back to you as soon as possible.
+          <p className="text-lg sm:text-xl text-gray-600 mb-4">
+            We&apos;re here to help. Reach out to us through any of the methods below, and we&apos;ll get back to you as soon as possible.
           </p>
+          <a 
+            href="tel:702-718-2228" 
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xl px-8 py-4 rounded-lg transition duration-300 shadow-lg"
+          >
+            📞 Call/Text: 702-718-2228
+          </a>
         </section>
 
         <section className="mb-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="flex flex-col items-center text-center">
             <FaPhoneAlt className="text-indigo-900 text-4xl mb-2" />
             <h2 className="text-2xl font-bold text-indigo-900 mb-2">Call Us</h2>
-            <p className="text-lg text-gray-600">+1 (123) 456-7890</p>
+            <a 
+              href="tel:702-718-2228" 
+              className="text-lg text-indigo-900 hover:text-orange-500 font-semibold transition duration-300"
+            >
+              702-718-2228
+            </a>
+            <p className="text-sm text-gray-500 mt-1">Call or Text</p>
           </div>
           <div className="flex flex-col items-center text-center">
             <FaEnvelope className="text-indigo-900 text-4xl mb-2" />
