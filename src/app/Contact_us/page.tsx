@@ -36,8 +36,8 @@ export default function Contact() {
             <FaMapMarkerAlt className="text-indigo-900 text-4xl mb-2" />
             <h2 className="text-2xl font-bold text-indigo-900 mb-2">Visit Us</h2>
             <p className="text-lg text-gray-600">
-              Mesquite Welcome Center<br />
-              460 N. Sandhill Blvd.<br />
+              1155 W Pioneer Blvd<br />
+              Suite 104-D<br />
               Mesquite, NV 89027
             </p>
           </div>
@@ -87,7 +87,7 @@ export default function Contact() {
           <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-6 text-center">Our Location</h2>
           <div className="relative w-full h-64 sm:h-80 lg:h-96">
            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.8256532647787!2d-114.07671402347031!3d36.805508372066525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ca5a5e5b5b5b5b%3A0x5b5b5b5b5b5b5b5b!2s460%20N%20Sandhill%20Blvd%2C%20Mesquite%2C%20NV%2089027!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.8256532647787!2d-114.07671402347031!3d36.805508372066525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzYuODA1NTA4NCAtMTE0LjA3NjcxNDI!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus&q=1155+W+Pioneer+Blvd+Suite+104-D+Mesquite+NV+89027"
               width="100%"
               height="100%"
               allowFullScreen={false}

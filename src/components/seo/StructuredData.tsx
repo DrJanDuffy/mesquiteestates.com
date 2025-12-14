@@ -11,8 +11,10 @@ export default function StructuredData() {
     logo: `${siteConfig.url}/Image/hero_bg_1.jpg`,
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '1155 W Pioneer Blvd Suite 104-D',
       addressLocality: 'Mesquite',
       addressRegion: 'NV',
+      postalCode: '89027',
       addressCountry: 'US',
     },
     areaServed: {

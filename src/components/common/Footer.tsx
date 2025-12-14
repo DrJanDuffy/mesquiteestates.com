@@ -171,8 +171,8 @@ const Footer = () => {
               <li className="flex items-start">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="h-5 w-5 mr-3 text-indigo-300 mt-1" />
                 <span className="text-indigo-200 text-sm">
-                  Mesquite Welcome Center<br />
-                  460 N. Sandhill Blvd.<br />
+                  1155 W Pioneer Blvd<br />
+                  Suite 104-D<br />
                   Mesquite, NV 89027
                 </span>
               </li>
