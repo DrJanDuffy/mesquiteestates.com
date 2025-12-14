@@ -18,7 +18,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-   
+      <head>
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            realscout-simple-search {
+              --rs-ss-font-primary-color: #000000;
+              --rs-ss-searchbar-border-color: #8b572a;
+              --rs-ss-box-shadow: 0 10px 15px -3px #0000001a;
+              --rs-ss-widget-width: 100% !important;
+              max-width: 42rem;
+              margin: 0 auto;
+            }
+          `
+        }} />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

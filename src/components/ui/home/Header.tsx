@@ -16,6 +16,15 @@ export default function Header() {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
     }, 5000);
 
+    // Load RealScout web components
+    if (typeof window !== 'undefined' && !document.querySelector('script[src*="realscout-web-components"]')) {
+      const script = document.createElement('script');
+      script.src = 'https://em.realscout.com/widgets/realscout-web-components.umd.js';
+      script.type = 'module';
+      script.async = true;
+      document.head.appendChild(script);
+    }
+
     return () => clearInterval(intervalId);
   }, [images.length]);
 
@@ -47,15 +56,8 @@ export default function Header() {
               Find Your Dream Home in Mesquite Estates | About an Hour North of Las Vegas
             </p>
 
-            <div className="flex items-center mb-4 max-w-2xl mx-auto">
-              <input
-                type="text"
-                placeholder="Search Mesquite, NV"
-                className="p-2 md:p-4 px-4 md:w-52 rounded-md flex-grow"
-              />
-              <button className="bg-indigo-900 ml-2 p-2 md:p-4 px-3 text-white rounded-md max-w-xs">
-                Search
-              </button>
+            <div className="flex items-center justify-center mb-4 max-w-2xl mx-auto">
+              <realscout-simple-search agent-encoded-id="QWdlbnQtMjI1MDUw"></realscout-simple-search>
             </div>
           </div>
         </div>
