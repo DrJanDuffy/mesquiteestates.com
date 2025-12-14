@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
+import Newsletter from "@/components/common/Newsletter";
 
 export default function Contact() {
   return (

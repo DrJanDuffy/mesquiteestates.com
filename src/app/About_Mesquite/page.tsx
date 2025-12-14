@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
+import Newsletter from "@/components/common/Newsletter";
 import Link from "next/link";
 import { FaMapMarkerAlt, FaMountain, FaGolfBall, FaUmbrellaBeach, FaTree, FaRoute } from "react-icons/fa";
 
@@ -359,6 +360,7 @@ export default function AboutMesquite() {
           </div>
         </section>
       </div>
+      <Newsletter />
       <Footer />
     </>
   );

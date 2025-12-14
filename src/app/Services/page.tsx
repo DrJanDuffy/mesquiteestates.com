@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
+import Newsletter from "@/components/common/Newsletter";
 import { FaCheckCircle, FaUserTie, FaCog, FaChartLine } from 'react-icons/fa';
 
 export default function Services() {
@@ -241,6 +242,7 @@ export default function Services() {
         </div>
       </section>
     </div>
+    <Newsletter />
     <Footer/>
     </>
   );

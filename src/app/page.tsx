@@ -7,6 +7,7 @@ import Reviews from "@/components/ui/home/Reviews";
 import Agents from "@/components/ui/home/Agents";
 import Footer from "@/components/common/Footer";
 import FloatingCTA from "@/components/common/FloatingCTA";
+import Newsletter from "@/components/common/Newsletter";
 import StructuredData from "@/components/seo/StructuredData";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Agents />
       <Choose_us />
       <Reviews />
+      <Newsletter />
       <FloatingCTA />
       <Footer />
     </>
