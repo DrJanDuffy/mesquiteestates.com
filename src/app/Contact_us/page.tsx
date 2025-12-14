@@ -132,6 +132,22 @@ export default function Contact() {
           </div>
         </section>
 
+        {/* RealScout Office Listings */}
+        <section className="mb-16">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-6 text-center">Browse Current Listings</h2>
+          <p className="text-base text-gray-700 mb-8 text-center max-w-3xl mx-auto">
+            Explore our current selection of homes, lots, and properties available in Mesquite, Nevada. 
+            Contact us to schedule a viewing or get more information about any property that interests you.
+          </p>
+          <div className="w-full">
+            <realscout-office-listings 
+              agent-encoded-id="QWdlbnQtMjI1MDUw" 
+              sort-order="NEWEST" 
+              listing-status="For Sale"
+            ></realscout-office-listings>
+          </div>
+        </section>
+
         <section className="mb-16">
           <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-6 text-center">Our Location</h2>
           <div className="relative w-full h-64 sm:h-80 lg:h-96">

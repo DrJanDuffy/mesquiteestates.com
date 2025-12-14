@@ -311,6 +311,23 @@ export default function AboutMesquite() {
           </div>
         </section>
 
+        {/* RealScout Office Listings */}
+        <section className="mb-16">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-6 text-center">Homes Available in Mesquite</h2>
+          <p className="text-base text-gray-700 mb-8 text-center max-w-3xl mx-auto">
+            Discover the perfect home in Mesquite, Nevada. Browse our current listings including custom lots, 
+            single-family homes, golf course properties, and 55+ community homes. Contact Dr. Jan Duffy to 
+            learn more about any property.
+          </p>
+          <div className="w-full">
+            <realscout-office-listings 
+              agent-encoded-id="QWdlbnQtMjI1MDUw" 
+              sort-order="NEWEST" 
+              listing-status="For Sale"
+            ></realscout-office-listings>
+          </div>
+        </section>
+
         {/* Call to Action */}
         <section className="text-center bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-12 rounded-lg shadow-lg">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">

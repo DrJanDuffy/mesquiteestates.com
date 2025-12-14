@@ -131,6 +131,22 @@ export default function SellYourMesquiteHome() {
           </div>
         </section>
 
+        {/* RealScout Office Listings */}
+        <section className="mb-16">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-6 text-center">Current Mesquite Market Listings</h2>
+          <p className="text-base text-gray-700 mb-8 text-center max-w-3xl mx-auto">
+            See what&apos;s currently on the market in Mesquite to help you understand pricing and competition. 
+            Contact Dr. Jan Duffy for a comprehensive market analysis of your property.
+          </p>
+          <div className="w-full">
+            <realscout-office-listings 
+              agent-encoded-id="QWdlbnQtMjI1MDUw" 
+              sort-order="NEWEST" 
+              listing-status="For Sale"
+            ></realscout-office-listings>
+          </div>
+        </section>
+
         <section className="bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-8 rounded-lg text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Sell Your Mesquite Home?</h2>
           <p className="text-xl mb-6">
