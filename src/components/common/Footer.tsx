@@ -63,31 +63,7 @@ const Footer = () => {
                   href="/Sun_City_Mesquite"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  Sun City Mesquite
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Sun_City_Mesquite_Floor_Plans"
-                  className="text-indigo-200 hover:text-white transition duration-300"
-                >
-                  Sun City Floor Plans
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Sun_City_Mesquite_Amenities"
-                  className="text-indigo-200 hover:text-white transition duration-300"
-                >
-                  Sun City Amenities
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Conestoga_Golf_Mesquite"
-                  className="text-indigo-200 hover:text-white transition duration-300"
-                >
-                  Conestoga Golf Club
+                  Sun City Mesquite (55+)
                 </Link>
               </li>
               <li>
@@ -124,9 +100,29 @@ const Footer = () => {
               <li>
                 <Link
                   href="/Sun_City_Mesquite"
-                  className="text-indigo-200 hover:text-white transition duration-300"
+                  className="text-indigo-200 hover:text-white transition duration-300 font-semibold"
                 >
                   Sun City Mesquite (55+)
+                </Link>
+              </li>
+              <li className="ml-4 space-y-2">
+                <Link
+                  href="/Sun_City_Mesquite_Floor_Plans"
+                  className="text-indigo-300 hover:text-white transition duration-300 text-sm block"
+                >
+                  • Floor Plans
+                </Link>
+                <Link
+                  href="/Sun_City_Mesquite_Amenities"
+                  className="text-indigo-300 hover:text-white transition duration-300 text-sm block"
+                >
+                  • Amenities
+                </Link>
+                <Link
+                  href="/Conestoga_Golf_Mesquite"
+                  className="text-indigo-300 hover:text-white transition duration-300 text-sm block"
+                >
+                  • Conestoga Golf Club
                 </Link>
               </li>
               <li>
