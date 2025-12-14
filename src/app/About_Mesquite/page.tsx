@@ -50,7 +50,7 @@ export default function AboutMesquite() {
               </p>
               <p className="text-base text-gray-700 mb-6">
                 Dr. Jan Duffy, an experienced Mesquite realtor with BHHS Nevada Properties, helps clients understand the 
-                unique advantages of Mesquite's location when searching for homes. The proximity to Las Vegas provides 
+                unique advantages of Mesquite&apos;s location when searching for homes. The proximity to Las Vegas provides 
                 convenient access to international airports, major shopping, and world-class entertainment, while Mesquite 
                 itself offers a peaceful retreat from urban life. This combination makes Mesquite homes attractive to buyers 
                 seeking the best of both worlds.
