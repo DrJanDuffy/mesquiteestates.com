@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/siteConfig";
+import AccessibilityWidget from "@/components/common/AccessibilityWidget";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -97,7 +98,10 @@ export default function RootLayout({
           `
         }} />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <AccessibilityWidget />
+      </body>
     </html>
   );
 }
