@@ -49,7 +49,7 @@ export default function CommunitiesPreview() {
           {communities.map((community) => (
             <Link
               key={community.slug}
-              href={`/communities/${community.slug}`}
+              href={community.slug === 'sun-city-mesquite' ? '/Sun_City_Mesquite' : `/communities/${community.slug}`}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300 group"
             >
               <div className="relative h-48">

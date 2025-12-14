@@ -27,14 +27,36 @@ export default function SunCityMesquite() {
               <h2 className="text-2xl sm:text-3xl font-semibold mb-4">
                 Nevada&apos;s Premier 55+ Active Adult Community by Del Webb
               </h2>
-              <a
-                href="tel:702-718-2228"
-                className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300 mt-4"
-              >
-                Call/Text 702-718-2228
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="tel:702-718-2228"
+                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300"
+                >
+                  Call/Text 702-718-2228
+                </a>
+                <Link
+                  href="/Sun_City_Mesquite"
+                  className="bg-indigo-900 hover:bg-indigo-800 text-white font-semibold px-8 py-3 rounded-lg transition duration-300"
+                >
+                  View Comprehensive Guide →
+                </Link>
+              </div>
             </div>
           </div>
+        </section>
+
+        {/* Link to Comprehensive Page */}
+        <section className="mb-16 bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-6 rounded-lg text-center">
+          <h2 className="text-2xl font-bold mb-3">Explore Our Comprehensive Sun City Mesquite Guide</h2>
+          <p className="mb-4 text-indigo-100">
+            For detailed information about floor plans, amenities, golf, and more, visit our comprehensive guide.
+          </p>
+          <Link
+            href="/Sun_City_Mesquite"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300"
+          >
+            View Complete Sun City Mesquite Guide →
+          </Link>
         </section>
 
         {/* Overview Section */}
@@ -50,7 +72,8 @@ export default function SunCityMesquite() {
             As a Mesquite realtor specializing in 55+ communities, Dr. Jan Duffy helps clients discover the perfect 
             Sun City Mesquite home that matches their lifestyle preferences. Whether you&apos;re seeking a low-maintenance 
             single-family home or a spacious villa, Sun City Mesquite offers diverse housing options within a vibrant, 
-            active community setting.
+            active community setting. Explore our <Link href="/Sun_City_Mesquite_Floor_Plans" className="text-indigo-900 hover:text-indigo-600 underline font-semibold">floor plans</Link> and 
+            comprehensive <Link href="/Sun_City_Mesquite_Amenities" className="text-indigo-900 hover:text-indigo-600 underline font-semibold">amenities guide</Link> to learn more.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
@@ -76,7 +99,7 @@ export default function SunCityMesquite() {
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
                 <span className="text-indigo-600 mr-2 font-bold">•</span>
-                <span>Conestoga Golf Club (18 holes)</span>
+                <span><Link href="/Conestoga_Golf_Mesquite" className="text-indigo-900 hover:text-indigo-600 underline">Conestoga Golf Club (18 holes)</Link></span>
               </li>
               <li className="flex items-start">
                 <span className="text-indigo-600 mr-2 font-bold">•</span>

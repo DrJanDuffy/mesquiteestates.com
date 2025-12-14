@@ -27,13 +27,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/communities/highland-villas',
     '/55-plus-communities-mesquite',
     '/sell-your-mesquite-home',
+    '/Sun_City_Mesquite',
+    '/Sun_City_Mesquite_Floor_Plans',
+    '/Sun_City_Mesquite_Amenities',
+    '/Conestoga_Golf_Mesquite',
   ]
 
   return staticPages.map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: currentDate,
     changeFrequency: route === '' ? 'daily' : 'weekly',
-    priority: route === '' ? 1 : 0.8,
+    priority: route === '' ? 1 : route === '/Sun_City_Mesquite' ? 0.9 : 0.8,
   }))
 }
 

@@ -88,10 +88,12 @@ export default function GolfHomesMesquite() {
                 breathtaking desert views.
               </p>
               <p className="text-base text-gray-700 mb-4">
-                The proximity of golf homes to these courses means residents enjoy convenient access to world-class golfing 
-                opportunities. Many Mesquite homes for sale are situated within walking distance or a short golf cart ride to 
-                multiple courses, creating an ideal lifestyle for golf enthusiasts. This accessibility is one of the primary 
-                reasons buyers choose Mesquite real estate for their golf home investments.
+            The proximity of golf homes to these courses means residents enjoy convenient access to world-class golfing 
+            opportunities. Many Mesquite homes for sale are situated within walking distance or a short golf cart ride to 
+            multiple courses, creating an ideal lifestyle for golf enthusiasts. This accessibility is one of the primary 
+            reasons buyers choose Mesquite real estate for their golf home investments. Sun City Mesquite features the 
+            award-winning <Link href="/Conestoga_Golf_Mesquite" className="text-indigo-900 hover:text-indigo-600 underline font-semibold">Conestoga Golf Club</Link>, 
+            an 18-hole championship course designed by Gary Panks.
               </p>
               
               {/* H3 Subsection */}

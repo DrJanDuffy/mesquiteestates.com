@@ -60,10 +60,34 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/communities/sun-city-mesquite"
+                  href="/Sun_City_Mesquite"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
                   Sun City Mesquite
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Sun_City_Mesquite_Floor_Plans"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Sun City Floor Plans
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Sun_City_Mesquite_Amenities"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Sun City Amenities
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Conestoga_Golf_Mesquite"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Conestoga Golf Club
                 </Link>
               </li>
               <li>

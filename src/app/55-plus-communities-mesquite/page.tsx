@@ -105,7 +105,7 @@ export default function FiftyFivePlusCommunities() {
                   Conestoga Golf Club, fitness center, pools, and over 100 clubs and activities.
                 </p>
                 <Link
-                  href="/communities/sun-city-mesquite"
+                  href="/Sun_City_Mesquite"
                   className="inline-block bg-indigo-900 hover:bg-indigo-800 text-white font-semibold px-6 py-3 rounded-lg transition duration-300"
                 >
                   Explore Sun City Mesquite →

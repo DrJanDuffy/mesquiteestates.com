@@ -66,7 +66,7 @@ export default function Navbar() {
               {[
                 { href: "/Mesquite_Homes_For_Sale", label: "Homes for Sale" },
                 { href: "/Golf_Homes_Mesquite", label: "Golf Homes" },
-                { href: "/communities/sun-city-mesquite", label: "55+ Living" },
+                { href: "/Sun_City_Mesquite", label: "55+ Living" },
                 { href: "/About_Mesquite", label: "About Mesquite" },
                 { href: "/Services", label: "Services" },
                 { href: "/Dashboard", label: "Market Analysis" },
