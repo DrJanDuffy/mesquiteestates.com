@@ -1,11 +1,12 @@
 "use client";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaChevronDown } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isSunCityDropdownOpen, setIsSunCityDropdownOpen] = useState<boolean>(false);
 
   useEffect(() => {
     const handleScroll = () => {
