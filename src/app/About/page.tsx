@@ -39,7 +39,7 @@ export default function About() {
                 Our journey is rooted in understanding the unique appeal of Mesquite - from its stunning desert landscapes 
                 and world-class golf courses to its welcoming small-town community. We believe in fostering strong relationships 
                 with our clients and delivering exceptional real estate services that help them achieve their dreams of living 
-                in this desert paradise. Dr. Jan Duffy's experience as a Mesquite realtor provides clients with expert guidance 
+                in this desert paradise. Dr. Jan Duffy&apos;s experience as a Mesquite realtor provides clients with expert guidance 
                 that makes the process of finding and purchasing Mesquite homes smooth and successful.
               </p>
               <p className="text-base text-gray-700 mb-4">
@@ -54,7 +54,7 @@ export default function About() {
                 Serving the Mesquite Real Estate Market
               </h3>
               <p className="text-base text-gray-700">
-                Dr. Jan Duffy's role as a Mesquite realtor involves deep knowledge of the local real estate market, including 
+                Dr. Jan Duffy&apos;s role as a Mesquite realtor involves deep knowledge of the local real estate market, including 
                 Mesquite homes for sale, golf course properties, and custom lots. Our comprehensive understanding of Mesquite real 
                 estate trends, property values, and neighborhood characteristics enables us to provide clients with accurate 
                 information and expert guidance. This market expertise, combined with professional realtor services, ensures that 
@@ -109,7 +109,7 @@ export default function About() {
               </h3>
               <p className="text-base text-gray-700">
                 Our mission extends beyond simply helping clients find Mesquite homes for sale. We provide comprehensive realtor 
-                services that include market analysis, property evaluation, negotiation, and transaction coordination. Dr. Jan Duffy's 
+                services that include market analysis, property evaluation, negotiation, and transaction coordination. Dr. Jan Duffy&apos;s 
                 expertise as a Mesquite realtor ensures that clients receive professional representation throughout the entire home 
                 buying or selling process. This comprehensive approach to realtor services distinguishes our commitment to client 
                 success in the Mesquite real estate market.
@@ -135,14 +135,12 @@ export default function About() {
             Expertise in Mesquite Real Estate
           </h3>
           <p className="text-base text-gray-700 mb-8 max-w-3xl mx-auto text-center">
-            Our team's expertise encompasses all aspects of Mesquite real estate, including golf homes, custom lots, family 
+            Our team&apos;s expertise encompasses all aspects of Mesquite real estate, including golf homes, custom lots, family 
             residences, and investment properties. We understand the unique characteristics that make Mesquite homes desirable, 
             from proximity to championship golf courses to stunning desert views and resort amenities. This comprehensive knowledge 
             of the Mesquite real estate market enables us to match clients with properties that perfectly suit their needs and preferences.
           </p>
           
-          <div className="text-center">
-
           <div className="py-10 px-4 bg-gray-100">
             <div className="max-w-7xl mx-auto">
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
