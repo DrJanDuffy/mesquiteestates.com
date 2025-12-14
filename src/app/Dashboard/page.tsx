@@ -37,11 +37,19 @@ const MarketAnalysis: React.FC = () => {
         <div className="container mx-auto px-4 py-8">
           {/* Header */}
           <header className="bg-gradient-to-r from-blue-900 to-indigo-800 shadow-lg p-6 mb-8 rounded-lg text-white">
-            <div className="flex items-center mb-2">
-              <FaChartLine className="mr-4 text-3xl" />
-              <h1 className="text-3xl md:text-4xl font-bold">
-                Mesquite, Nevada Real Estate Market Analysis
-              </h1>
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+              <div className="flex items-center mb-4 md:mb-0">
+                <FaChartLine className="mr-4 text-3xl" />
+                <h1 className="text-3xl md:text-4xl font-bold">
+                  Mesquite, Nevada Real Estate Market Analysis
+                </h1>
+              </div>
+              <a
+                href="tel:702-718-2228"
+                className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-6 py-3 rounded-lg transition duration-300 shadow-lg whitespace-nowrap"
+              >
+                📞 Call/Text: 702-718-2228
+              </a>
             </div>
             <p className="text-blue-100 text-lg mt-2">
               Comprehensive market insights and trends for Mesquite Estates and surrounding areas
@@ -361,20 +369,28 @@ const MarketAnalysis: React.FC = () => {
           </div>
 
           {/* Contact CTA */}
-          <div className="bg-white rounded-lg shadow-md p-8 text-center">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+          <div className="bg-gradient-to-r from-indigo-600 to-indigo-800 rounded-lg shadow-md p-8 text-center text-white">
+            <h2 className="text-3xl font-bold mb-4">
               Interested in Mesquite Real Estate?
             </h2>
-            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+            <p className="text-indigo-100 mb-6 max-w-2xl mx-auto text-lg">
               Dr. Jan Duffy specializes in Mesquite Estates and golf course properties. Get expert 
               market analysis and personalized guidance for your real estate needs.
             </p>
-            <a
-              href="/Contact_us"
-              className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition duration-300"
-            >
-              Contact Dr. Jan Duffy
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="tel:702-718-2228"
+                className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300 shadow-lg"
+              >
+                📞 Call/Text 702-718-2228
+              </a>
+              <a
+                href="/Contact_us"
+                className="inline-block bg-white hover:bg-gray-100 text-indigo-900 font-semibold px-8 py-3 rounded-lg transition duration-300"
+              >
+                Contact Form
+              </a>
+            </div>
           </div>
         </div>
       </div>
