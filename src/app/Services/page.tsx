@@ -18,6 +18,14 @@ export default function Services() {
           Dr. Jan Duffy and BHHS Nevada Properties offer comprehensive real estate services tailored to help you find your 
           dream home in beautiful Mesquite, Nevada. From custom lots to move-in-ready homes, we&apos;re here to guide you every step of the way.
         </p>
+        <div className="mb-6">
+          <a
+            href="tel:702-718-2228"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xl px-8 py-4 rounded-lg transition duration-300 shadow-lg"
+          >
+            📞 Call/Text: 702-718-2228
+          </a>
+        </div>
         <p className="text-base text-gray-700 max-w-3xl mx-auto">
           As your trusted Mesquite realtor, Dr. Jan Duffy provides professional realtor services that encompass all aspects of 
           buying and selling real estate in Mesquite. Our expertise in Mesquite homes, golf course properties, and custom lots 
@@ -149,15 +157,24 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="bg-indigo-100 p-8 rounded-lg shadow-lg">
-        <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-6 text-center">Ready to Find Your Dream Home?</h2>
-        <p className="text-lg sm:text-xl text-gray-600 mb-8 text-center max-w-3xl mx-auto">
+      <section className="bg-gradient-to-r from-indigo-600 to-indigo-800 p-8 rounded-lg shadow-lg text-white">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Ready to Find Your Dream Home?</h2>
+        <p className="text-lg sm:text-xl text-indigo-100 mb-8 text-center max-w-3xl mx-auto">
           Contact Dr. Jan Duffy today to begin your journey to owning a home in beautiful Mesquite, Nevada. 
           We&apos;re here to help you discover the perfect property that fits your lifestyle and budget.
         </p>
-        <div className="text-center">
-          <Link href="/Contact_us" className="text-xl font-bold border rounded-md py-3 px-6 text-white bg-indigo-900 hover:bg-indigo-800 transition duration-300 inline-block">
-            Contact Us Now
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="tel:702-718-2228"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold text-xl px-8 py-3 rounded-lg transition duration-300 shadow-lg text-center"
+          >
+            📞 Call/Text 702-718-2228
+          </a>
+          <Link
+            href="/Contact_us"
+            className="inline-block bg-white hover:bg-gray-100 text-indigo-900 font-semibold text-xl px-8 py-3 rounded-lg transition duration-300 text-center"
+          >
+            Contact Form
           </Link>
         </div>
       </section>
