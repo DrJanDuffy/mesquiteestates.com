@@ -17,9 +17,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info Section */}
           <div>
-            <h3 className="font-bold text-2xl mb-6">Company Name</h3>
+            <h3 className="font-bold text-2xl mb-6">Mesquite Estates</h3>
             <p className="text-indigo-200 mb-4">
-              Providing innovative solutions for your business needs since 2010.
+              Homes by Dr. Jan Duffy, BHHS Nevada Properties. Custom lots from $70K, homes $360K-$700K in beautiful Mesquite, Nevada.
             </p>
             <div className="flex space-x-4">
               {[faTwitter, faFacebookF, faLinkedinIn, faInstagram].map((icon, index) => (
@@ -38,16 +38,46 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-xl mb-6">Quick Links</h3>
             <ul className="space-y-3">
-              {["About Us", "Services", "Projects", "Blog", "Contact"].map((item, index) => (
-                <li key={index}>
-                  <Link
-                    href="#"
-                    className="text-indigo-200 hover:text-white transition duration-300"
-                  >
-                    {item}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link
+                  href="/About"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/About_Mesquite"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  About Mesquite
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Services"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Property/Property_type"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Properties
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Contact_us"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -55,16 +85,46 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-xl mb-6">Our Services</h3>
             <ul className="space-y-3">
-              {["Web Development", "Mobile Apps", "Cloud Solutions", "IT Consulting", "Data Analytics"].map((item, index) => (
-                <li key={index}>
-                  <Link
-                    href="#"
-                    className="text-indigo-200 hover:text-white transition duration-300"
-                  >
-                    {item}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link
+                  href="/Services"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Home Sales
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Services"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Custom Lots
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Services"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Property Consultation
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Services"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Real Estate Investment
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Property/Property_type"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Browse Properties
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -74,24 +134,23 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="h-5 w-5 mr-3 text-indigo-300" />
-                <span className="text-indigo-200">123 Business Ave, Suite 100, City, State 12345</span>
+                <span className="text-indigo-200">Mesquite, Nevada<br />Virgin River Valley</span>
               </li>
-              <li className="flex items-center">
-                <FontAwesomeIcon icon={faPhone} className="h-5 w-5 mr-3 text-indigo-300" />
-                <Link
-                  href="tel:+11234567890"
-                  className="text-indigo-200 hover:text-white transition duration-300"
-                >
-                  +1 (123) 456-7890
-                </Link>
+              <li className="flex items-start">
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="h-5 w-5 mr-3 text-indigo-300 mt-1" />
+                <span className="text-indigo-200 text-sm">
+                  Mesquite Welcome Center<br />
+                  460 N. Sandhill Blvd.<br />
+                  Mesquite, NV 89027
+                </span>
               </li>
               <li className="flex items-center">
                 <FontAwesomeIcon icon={faEnvelope} className="h-5 w-5 mr-3 text-indigo-300" />
                 <Link
-                  href="mailto:info@company.com"
+                  href="/Contact_us"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  info@company.com
+                  Contact Dr. Jan Duffy
                 </Link>
               </li>
             </ul>
@@ -101,13 +160,10 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-indigo-800 mt-12 pt-8 text-center text-indigo-300">
           <p>
-            © {new Date().getFullYear()} Company Name. All Rights Reserved.
+            © {new Date().getFullYear()} Mesquite Estates. All Rights Reserved.
           </p>
           <p className="mt-2">
-            Designed and Developed by{" "}
-            <a href="#" className="text-white hover:text-indigo-200 transition duration-300">
-              Your Company
-            </a>
+            Dr. Jan Duffy, BHHS Nevada Properties
           </p>
         </div>
       </div>

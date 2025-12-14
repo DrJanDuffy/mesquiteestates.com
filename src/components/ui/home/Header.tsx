@@ -40,14 +40,17 @@ export default function Header() {
             </div>
           ))}
           <div className="relative z-20 p-4 text-center">
-            <h1 className="text-xl md:text-2xl lg:text-5xl font-bold text-white mb-4 leading-relaxed bg-black/50 rounded-md p-2">
-              Easiest way to find your dream home
+            <h1 className="text-xl md:text-2xl lg:text-5xl font-bold text-white mb-2 leading-relaxed bg-black/50 rounded-md p-2">
+              Enjoy a Unique Getaway in Mesquite, Nevada
             </h1>
+            <p className="text-lg md:text-xl lg:text-2xl text-white mb-4 bg-black/50 rounded-md p-2 mx-auto max-w-3xl">
+              Find Your Dream Home in Mesquite Estates | About an Hour North of Las Vegas
+            </p>
 
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-4 max-w-2xl mx-auto">
               <input
                 type="text"
-                placeholder="Your ZIP code or City"
+                placeholder="Search Mesquite, NV"
                 className="p-2 md:p-4 px-4 md:w-52 rounded-md flex-grow"
               />
               <button className="bg-indigo-900 ml-2 p-2 md:p-4 px-3 text-white rounded-md max-w-xs">

@@ -17,26 +17,26 @@ interface Agent {
 const agents: Agent[] = [
   {
     id: 1,
-    name: "Sophia Rodriguez",
-    role: "Luxury Property Specialist",
+    name: "Dr. Jan Duffy",
+    role: "Mesquite Estates Specialist",
     image: "/Image/agent1.jpg",
-    specialties: ["Residential Sales", "Home Staging", "Neighborhood Expert"],
+    specialties: ["Mesquite Properties", "Custom Lots", "BHHS Nevada Properties"],
     rating: 5,
   },
   {
     id: 2,
-    name: "Michael Johnson",
-    role: "Commercial Real Estate Expert",
-    image: "/Image/agent2.jpg",
-    specialties: ["Luxury Homes", "New Construction", "Relocation Services"],
-    rating: 4.5,
+    name: "BHHS Team",
+    role: "Real Estate Experts",
+    image: "/Image/agent1.jpg",
+    specialties: ["Home Sales", "Investment Properties", "Property Consultation"],
+    rating: 5,
   },
   {
     id: 3,
-    name: "Emily Clark",
-    role: "Residential Advisor",
+    name: "Mesquite Specialists",
+    role: "Area Experts",
     image: "/Image/agent1.jpg",
-    specialties: ["Senior Real Estate", "Estate Sales", "Home Valuation Expert"],
+    specialties: ["Golf Course Communities", "Resort Properties", "Desert Living"],
     rating: 4.8,
   },
 ];
@@ -98,7 +98,7 @@ export default function AgentShowcase() {
     <section className="bg-gradient-to-b from-gray-50 to-white px-4 sm:px-6 lg:px-72 mb-20">
       <div className="container mx-auto">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-center text-indigo-900 py-10">
-          Our Elite Agents
+          Meet Our Real Estate Team
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {agents.map((agent) => (

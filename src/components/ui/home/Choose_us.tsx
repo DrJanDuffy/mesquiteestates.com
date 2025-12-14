@@ -11,28 +11,28 @@ interface Reason {
 
 const reasons: Reason[] = [
   {
-    title: "Exceptional Quality",
+    title: "Prime Location",
     description:
-      "We deliver exceptional service and innovative products that surpass industry benchmarks.",
-    icon: "🏆",
+      "About an hour north of Las Vegas in the scenic Virgin River Valley, surrounded by flat-top red mesas and stunning vistas. Close to national and state parks.",
+    icon: "📍",
   },
   {
-    title: "Customer-Driven",
+    title: "World-Class Golf",
     description:
-      "Our clients are at the heart of everything we do, ensuring personalized and attentive service.",
-    icon: "🤝",
+      "Seven championship golf courses within a 10-minute drive. Perfect for golf enthusiasts seeking a premier lifestyle in a beautiful desert setting.",
+    icon: "⛳",
   },
   {
-    title: "Innovative Solutions",
+    title: "Resort Lifestyle",
     description:
-      "We leverage cutting-edge technology and creative solutions to meet your needs.",
-    icon: "💡",
+      "Experience a friendly small-town community with welcoming resorts, 24-hour casino action, live entertainment, and exciting annual sports and special events.",
+    icon: "🏖️",
   },
   {
-    title: "Reliable Support",
+    title: "Investment Potential",
     description:
-      "Our dedicated support team is available 24/7 to assist you with any concerns.",
-    icon: "🛠️",
+      "Growing area with excellent amenities and a welcoming community. Custom lots from $70K, homes $360K-$700K. A smart investment in Nevada's desert paradise.",
+    icon: "💰",
   },
 ];
 

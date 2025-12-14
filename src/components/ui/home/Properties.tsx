@@ -67,9 +67,9 @@ export default function RealEstateShowcase() {
   const properties: Property[] = [
     {
       id: 1,
-      name: "Sunset Villa",
-      location: "Malibu, CA",
-      price: "$2,500,000",
+      name: "Desert Vista Estate",
+      location: "Mesquite, NV",
+      price: "$650,000",
       image: "/Image/hero_bg_1.jpg",
       bedrooms: 4,
       bathrooms: 3,
@@ -77,23 +77,23 @@ export default function RealEstateShowcase() {
     },
     {
       id: 2,
-      name: "Downtown Loft",
-      location: "New York, NY",
-      price: "$1,200,000",
+      name: "Mesa View Home",
+      location: "Mesquite, NV",
+      price: "$450,000",
       image: "/Image/hero_bg_2.jpg",
       bedrooms: 2,
       bathrooms: 2,
-      squareFeet: 1500,
+      squareFeet: 1800,
     },
     {
       id: 3,
-      name: "Meadow Ranch",
-      location: "Montana",
-      price: "$3,750,000",
+      name: "Golf Course Estate",
+      location: "Mesquite, NV",
+      price: "$680,000",
       image: "/Image/hero_bg_3.jpg",
       bedrooms: 5,
       bathrooms: 4,
-      squareFeet: 5000,
+      squareFeet: 4200,
     },
     {
       id: 4,
@@ -171,7 +171,7 @@ export default function RealEstateShowcase() {
     <div className="container mx-auto py-20 px-4 sm:px-6 lg:px-32 ">
       <div className="relative flex justify-between items-center mb-8">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-indigo-900">
-          Our Properties
+          Mesquite Estates Properties
         </h1>
         <Link
           href="/Property"

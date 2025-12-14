@@ -26,9 +26,9 @@ export default function Navbar() {
           {/* Brand Logo */}
           <Link
             href="/"
-            className="text-xl md:text-2xl lg:text-3xl font-bold cursor-pointer hover:text-pink-300 transition-colors duration-300"
+            className="text-xl md:text-2xl lg:text-3xl font-bold cursor-pointer hover:text-indigo-600 transition-colors duration-300"
           >
-            Dream<span className="text-pink-300">Home</span>
+            Mesquite<span className="text-indigo-600">Estates</span>
           </Link>
 
           {/* Mobile Menu Button */}
@@ -53,6 +53,7 @@ export default function Navbar() {
                 { href: "/Property/Property_type", label: "PropertyType" },
                 { href: "/Services", label: "Services" },
                 { href: "/About", label: "About Us" },
+                { href: "/About_Mesquite", label: "About Mesquite" },
                 { href: "/Contact_us", label: "Contact" },
                 { href: "/Login", label: "Login" },
               ].map((link) => (

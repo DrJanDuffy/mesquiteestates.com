@@ -13,13 +13,12 @@ export default function About() {
       <div className="container mx-auto py-20 px-4 sm:px-6 lg:px-40 lg:mt-9 sm:mt-4">
         <section className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 mb-4">
-            About Us
+            About Mesquite Estates
           </h1>
-          <p className="text-base sm:text-base text-gray-600 ">
-            We are committed to excellence and dedicated to providing top-notch
-            services and products that meet the highest standards of quality.
-            Our mission is to create lasting value for our customers, partners,
-            and community.
+          <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
+            Mesquite Estates offers beautiful homes and custom lots in Mesquite, Nevada, a friendly small-town 
+            destination nestled in the scenic Virgin River Valley, just an hour north of Las Vegas. We are committed 
+            to excellence and dedicated to helping you find your dream home in this desert paradise.
           </p>
         </section>
 
@@ -29,17 +28,16 @@ export default function About() {
               <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-4">
                 Our Story
               </h2>
-              <p className=" text-base text-gray-600 mb-6">
-                Founded in [Year], we have grown from a small startup to an
-                industry leader. Our journey is one of passion, dedication and
-                innovation. We believe in fostering strong relationships and
-                delivering exceptional results.
+              <p className="text-base text-gray-600 mb-6">
+                Mesquite Estates represents the vision of bringing exceptional living experiences to the beautiful 
+                Virgin River Valley. Under the leadership of Dr. Jan Duffy with BHHS Nevada Properties, we specialize 
+                in helping clients discover their perfect home in Mesquite, Nevada.
               </p>
               <p className="text-base text-gray-600">
-                Over the years, we have expanded our offerings, embraced new
-                challenges, and constantly evolved to meet the ever-changing
-                needs of our clients. Our team is driven by a shared vision to
-                make a meaningful impact.
+                Our journey is rooted in understanding the unique appeal of Mesquite - from its stunning desert landscapes 
+                and world-class golf courses to its welcoming small-town community. We believe in fostering strong relationships 
+                with our clients and delivering exceptional real estate services that help them achieve their dreams of living 
+                in this desert paradise.
               </p>
             </div>
             <div className="relative w-full h-64 sm:h-80 lg:order-2">
@@ -70,15 +68,14 @@ export default function About() {
                 Our Mission
               </h2>
               <p className="text-base text-gray-600 mb-6">
-                Our mission is to innovate and deliver solutions that empower
-                our customers to succeed. We strive to set new standards of
-                excellence in everything we do, from product development to
-                customer service.
+                Our mission is to help individuals and families discover their perfect home in Mesquite, Nevada. 
+                We provide expert guidance in finding custom lots and homes that fit your lifestyle and budget, 
+                from custom lots starting at $70K to beautiful homes ranging from $360K to $700K.
               </p>
               <p className="text-base text-gray-600">
-                We are committed to sustainability, integrity, and continuous
-                improvement. Our goal is to create a positive impact on the
-                world through our actions and our products.
+                We are committed to excellence, integrity, and personalized service. Our goal is to create lasting value 
+                for our clients by helping them invest in not just a property, but in a lifestyle enriched by Mesquite's 
+                natural beauty, recreational opportunities, and welcoming community.
               </p>
             </div>
           </div>
