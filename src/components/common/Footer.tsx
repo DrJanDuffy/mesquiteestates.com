@@ -40,10 +40,34 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/About"
+                  href="/Mesquite_Homes_For_Sale"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  About Us
+                  Homes for Sale in Mesquite
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Golf_Homes_Mesquite"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Golf Homes in Mesquite
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Buying_Home_Mesquite"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Buying a Home in Mesquite
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Mesquite_Realtor_Services"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Realtor Services
                 </Link>
               </li>
               <li>
@@ -56,26 +80,10 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/Services"
-                  className="text-indigo-200 hover:text-white transition duration-300"
-                >
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Property/Property_type"
-                  className="text-indigo-200 hover:text-white transition duration-300"
-                >
-                  Properties
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/Contact_us"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  Contact
+                  Contact Dr. Jan Duffy
                 </Link>
               </li>
             </ul>

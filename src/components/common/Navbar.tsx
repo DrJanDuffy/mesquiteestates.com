@@ -50,10 +50,14 @@ export default function Navbar() {
             <div className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-1 xl:space-x-4 p-4 lg:p-0">
               {[
                 { href: "/Dashboard", label: "Dashboard" },
-                { href: "/Property/Property_type", label: "PropertyType" },
+                { href: "/Property/Property_type", label: "Properties" },
+                { href: "/Mesquite_Homes_For_Sale", label: "Homes for Sale" },
+                { href: "/Golf_Homes_Mesquite", label: "Golf Homes" },
                 { href: "/Services", label: "Services" },
                 { href: "/About", label: "About Us" },
                 { href: "/About_Mesquite", label: "About Mesquite" },
+                { href: "/Buying_Home_Mesquite", label: "Buying Guide" },
+                { href: "/Mesquite_Realtor_Services", label: "Realtor Services" },
                 { href: "/Contact_us", label: "Contact" },
                 { href: "/Login", label: "Login" },
               ].map((link) => (

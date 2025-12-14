@@ -28,16 +28,37 @@ export default function About() {
               <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-4">
                 Our Story
               </h2>
-              <p className="text-base text-gray-600 mb-6">
+              <p className="text-base text-gray-700 mb-4">
                 Mesquite Estates represents the vision of bringing exceptional living experiences to the beautiful 
                 Virgin River Valley. Under the leadership of Dr. Jan Duffy with BHHS Nevada Properties, we specialize 
-                in helping clients discover their perfect home in Mesquite, Nevada.
+                in helping clients discover their perfect home in Mesquite, Nevada. Our expertise in Mesquite real estate 
+                encompasses everything from golf homes and luxury properties to custom lots and family residences, ensuring 
+                that every client finds the ideal property that matches their lifestyle and budget.
               </p>
-              <p className="text-base text-gray-600">
+              <p className="text-base text-gray-700 mb-4">
                 Our journey is rooted in understanding the unique appeal of Mesquite - from its stunning desert landscapes 
                 and world-class golf courses to its welcoming small-town community. We believe in fostering strong relationships 
                 with our clients and delivering exceptional real estate services that help them achieve their dreams of living 
-                in this desert paradise.
+                in this desert paradise. Dr. Jan Duffy's experience as a Mesquite realtor provides clients with expert guidance 
+                that makes the process of finding and purchasing Mesquite homes smooth and successful.
+              </p>
+              <p className="text-base text-gray-700 mb-4">
+                The Mesquite Estates team understands that buying a home in Mesquite is more than just a real estate transaction - 
+                it&apos;s about investing in a lifestyle enriched by natural beauty, recreational opportunities, and community connections. 
+                Whether clients are seeking golf homes near championship courses, family residences in quiet neighborhoods, or custom 
+                lots to build their dream home, we provide the expertise and personalized service that ensures successful outcomes.
+              </p>
+              
+              {/* H3 Subsection */}
+              <h3 className="text-2xl font-semibold text-indigo-900 mb-4">
+                Serving the Mesquite Real Estate Market
+              </h3>
+              <p className="text-base text-gray-700">
+                Dr. Jan Duffy's role as a Mesquite realtor involves deep knowledge of the local real estate market, including 
+                Mesquite homes for sale, golf course properties, and custom lots. Our comprehensive understanding of Mesquite real 
+                estate trends, property values, and neighborhood characteristics enables us to provide clients with accurate 
+                information and expert guidance. This market expertise, combined with professional realtor services, ensures that 
+                clients receive exceptional representation throughout their real estate journey in Mesquite.
               </p>
             </div>
             <div className="relative w-full h-64 sm:h-80 lg:order-2">
@@ -67,24 +88,60 @@ export default function About() {
               <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-4">
                 Our Mission
               </h2>
-              <p className="text-base text-gray-600 mb-6">
+              <p className="text-base text-gray-700 mb-4">
                 Our mission is to help individuals and families discover their perfect home in Mesquite, Nevada. 
                 We provide expert guidance in finding custom lots and homes that fit your lifestyle and budget, 
-                from custom lots starting at $70K to beautiful homes ranging from $360K to $700K.
+                from custom lots starting at $70K to beautiful homes ranging from $360K to $700K. As your trusted Mesquite 
+                realtor, Dr. Jan Duffy offers comprehensive realtor services that make the process of finding and purchasing 
+                Mesquite homes efficient and enjoyable.
               </p>
-              <p className="text-base text-gray-600">
+              <p className="text-base text-gray-700 mb-4">
                 We are committed to excellence, integrity, and personalized service. Our goal is to create lasting value 
-                for our clients by helping them invest in not just a property, but in a lifestyle enriched by Mesquite's 
-                natural beauty, recreational opportunities, and welcoming community.
+                for our clients by helping them invest in not just a property, but in a lifestyle enriched by Mesquite&apos;s 
+                natural beauty, recreational opportunities, and welcoming community. Whether clients seek golf homes on 
+                championship courses, family residences, or investment properties, our mission centers on providing expert 
+                guidance that ensures successful real estate transactions.
+              </p>
+              
+              {/* H3 Subsection */}
+              <h3 className="text-2xl font-semibold text-indigo-900 mb-4">
+                Comprehensive Realtor Services in Mesquite
+              </h3>
+              <p className="text-base text-gray-700">
+                Our mission extends beyond simply helping clients find Mesquite homes for sale. We provide comprehensive realtor 
+                services that include market analysis, property evaluation, negotiation, and transaction coordination. Dr. Jan Duffy's 
+                expertise as a Mesquite realtor ensures that clients receive professional representation throughout the entire home 
+                buying or selling process. This comprehensive approach to realtor services distinguishes our commitment to client 
+                success in the Mesquite real estate market.
               </p>
             </div>
           </div>
         </section>
 
-        <section className="mb-16 text-center">
-          <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-8">
+        <section className="mb-16">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-indigo-900 mb-8 text-center">
             Meet Our Team
           </h2>
+          <p className="text-base text-gray-700 mb-6 max-w-3xl mx-auto text-center">
+            The Mesquite Estates team consists of experienced real estate professionals dedicated to helping clients find their 
+            perfect home in Mesquite, Nevada. Led by Dr. Jan Duffy, our team combines market expertise, local knowledge, and 
+            personalized service to ensure successful real estate transactions. Our understanding of Mesquite homes, golf course 
+            properties, and the local real estate market enables us to provide clients with expert guidance throughout their 
+            home search and purchase journey.
+          </p>
+          
+          {/* H3 Subsection */}
+          <h3 className="text-2xl font-semibold text-indigo-900 mb-4 text-center">
+            Expertise in Mesquite Real Estate
+          </h3>
+          <p className="text-base text-gray-700 mb-8 max-w-3xl mx-auto text-center">
+            Our team's expertise encompasses all aspects of Mesquite real estate, including golf homes, custom lots, family 
+            residences, and investment properties. We understand the unique characteristics that make Mesquite homes desirable, 
+            from proximity to championship golf courses to stunning desert views and resort amenities. This comprehensive knowledge 
+            of the Mesquite real estate market enables us to match clients with properties that perfectly suit their needs and preferences.
+          </p>
+          
+          <div className="text-center">
 
           <div className="py-10 px-4 bg-gray-100">
             <div className="max-w-7xl mx-auto">
@@ -100,9 +157,9 @@ export default function About() {
                     />
                   </div>
                   <h3 className="text-xl font-bold text-indigo-900">
-                    John Doe
+                    Dr. Jan Duffy
                   </h3>
-                  <p className="text-gray-600">CEO & Founder</p>
+                  <p className="text-gray-600">Mesquite Realtor | BHHS Nevada Properties</p>
                 </div>
                 <div className="text-center">
                   <div className="relative w-56 h-56 mx-auto mb-4">
@@ -115,9 +172,9 @@ export default function About() {
                     />
                   </div>
                   <h3 className="text-xl font-bold text-indigo-900">
-                    Jane Smith
+                    BHHS Nevada Properties Team
                   </h3>
-                  <p className="text-gray-600">Chief Marketing Officer</p>
+                  <p className="text-gray-600">Real Estate Professionals</p>
                 </div>
                 <div className="text-center">
                   <div className="relative w-56 h-56 mx-auto mb-4">
@@ -130,9 +187,9 @@ export default function About() {
                     />
                   </div>
                   <h3 className="text-xl font-bold text-indigo-900">
-                    Michael Johnson
+                    Mesquite Real Estate Specialists
                   </h3>
-                  <p className="text-gray-600">Head of Development</p>
+                  <p className="text-gray-600">Golf Homes & Property Experts</p>
                 </div>
                 <div className="text-center">
                   <div className="relative w-56 h-56 mx-auto mb-4">
@@ -145,9 +202,9 @@ export default function About() {
                     />
                   </div>
                   <h3 className="text-xl font-bold text-indigo-900">
-                    Emily Davis
+                    Customer Service Team
                   </h3>
-                  <p className="text-gray-600">Chief Financial Officer</p>
+                  <p className="text-gray-600">Client Support & Consultation</p>
                 </div>
               </div>
             </div>

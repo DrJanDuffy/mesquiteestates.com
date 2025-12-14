@@ -15,12 +15,14 @@ export default function AboutMesquite() {
         {/* Hero Section */}
         <section className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 mb-4">
-            Welcome to Mesquite, Nevada
+            Welcome to Mesquite, Nevada | Discover Homes and Golf Course Living in the Virgin River Valley
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
-            About an hour north of Las Vegas, you'll find Mesquite, a small town nestled in the picturesque Virgin River Valley. 
+            About an hour north of Las Vegas, you&apos;ll find Mesquite, a small town nestled in the picturesque Virgin River Valley. 
             Surrounded by scenic vistas and flat-top red mesas, this friendly, small-town destination is complemented by welcoming 
-            resorts, seven golf courses within a 10-minute drive, and its close proximity to national and state parks.
+            resorts, seven golf courses within a 10-minute drive, and its close proximity to national and state parks. Dr. Jan Duffy, 
+            your trusted Mesquite realtor, specializes in helping clients discover beautiful homes and golf course properties in this 
+            premier desert destination.
           </p>
         </section>
 
@@ -34,15 +36,24 @@ export default function AboutMesquite() {
                   Location & Geography
                 </h2>
               </div>
-              <p className="text-base text-gray-600 mb-6">
+              <p className="text-base text-gray-700 mb-4">
                 Mesquite is strategically located about an hour north of Las Vegas in the beautiful Virgin River Valley. 
                 The town is surrounded by stunning scenic vistas and distinctive flat-top red mesas that create a breathtaking 
-                desert landscape unlike anywhere else.
+                desert landscape unlike anywhere else. This unique geography makes Mesquite homes highly desirable for buyers 
+                seeking natural beauty combined with accessibility to major urban centers.
               </p>
-              <p className="text-base text-gray-600 mb-6">
+              <p className="text-base text-gray-700 mb-4">
                 The Virgin River Valley provides a unique setting that combines the tranquility of a small-town community 
                 with access to world-class amenities and entertainment. The natural beauty of the area makes it an ideal 
-                location for those seeking both adventure and relaxation.
+                location for those seeking both adventure and relaxation. Mesquite real estate offers opportunities for golf 
+                homes, family residences, and vacation properties that take advantage of this exceptional location.
+              </p>
+              <p className="text-base text-gray-700 mb-6">
+                Dr. Jan Duffy, an experienced Mesquite realtor with BHHS Nevada Properties, helps clients understand the 
+                unique advantages of Mesquite's location when searching for homes. The proximity to Las Vegas provides 
+                convenient access to international airports, major shopping, and world-class entertainment, while Mesquite 
+                itself offers a peaceful retreat from urban life. This combination makes Mesquite homes attractive to buyers 
+                seeking the best of both worlds.
               </p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
@@ -83,10 +94,17 @@ export default function AboutMesquite() {
                 Championship Golf Courses
               </h2>
             </div>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Mesquite is a golfer's paradise with seven championship golf courses within just a 10-minute drive. 
-              Whether you're a seasoned pro or a casual player, you'll find courses that challenge your skills while 
-              providing a breathtaking backdrop of the desert landscape.
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-4">
+              Mesquite is a golfer&apos;s paradise with seven championship golf courses within just a 10-minute drive. 
+              Whether you&apos;re a seasoned pro or a casual player, you&apos;ll find courses that challenge your skills while 
+              providing a breathtaking backdrop of the desert landscape. This exceptional golf infrastructure makes Mesquite 
+              an ideal location for golf homes and properties near championship courses.
+            </p>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+              The concentration of championship golf courses in Mesquite creates opportunities for golf homes that offer 
+              convenient access to world-class golfing. Dr. Jan Duffy specializes in helping clients find golf homes in 
+              Mesquite that combine luxury living with exceptional golf course access. Whether you&apos;re seeking a home on a 
+              golf course or near multiple courses, Mesquite real estate offers diverse options for golf enthusiasts.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
@@ -129,16 +147,24 @@ export default function AboutMesquite() {
                   Recreation & Activities
                 </h2>
               </div>
-              <p className="text-base text-gray-600 mb-6">
+              <p className="text-base text-gray-700 mb-4">
                 Mesquite offers a vibrant lifestyle with something for everyone. Enjoy 24-hour casino action, live entertainment, 
-                delicious dining options, and exciting annual sports and special events for the whole family.
+                delicious dining options, and exciting annual sports and special events for the whole family. This vibrant 
+                atmosphere makes Mesquite homes appealing to buyers seeking an active lifestyle with diverse recreational opportunities.
+              </p>
+              <p className="text-base text-gray-700 mb-6">
+                The recreational amenities in Mesquite enhance the value of Mesquite real estate, providing residents with 
+                year-round entertainment and activities. Whether you&apos;re interested in golf homes, resort living, or quiet 
+                residential properties, Mesquite offers diverse options that cater to various lifestyle preferences. Dr. Jan Duffy&apos;s 
+                expertise as a Mesquite realtor helps clients identify properties that match their recreational interests and 
+                lifestyle goals.
               </p>
               <div className="space-y-4">
                 <div>
                   <h3 className="text-xl font-semibold text-indigo-900 mb-2">Resorts & Casinos</h3>
                   <p className="text-gray-600">
                     Welcoming resorts offer 24-hour casino action, live entertainment, and top-notch amenities. 
-                    Experience the excitement that doesn't stop when the sun goes down.
+                    Experience the excitement that doesn&apos;t stop when the sun goes down.
                   </p>
                 </div>
                 <div>
@@ -152,7 +178,7 @@ export default function AboutMesquite() {
                   <h3 className="text-xl font-semibold text-indigo-900 mb-2">Sports & Events</h3>
                   <p className="text-gray-600">
                     Exciting annual sports tournaments and special events bring the community together. 
-                    There's always something happening in Mesquite.
+                    There&apos;s always something happening in Mesquite.
                   </p>
                 </div>
               </div>
@@ -170,7 +196,7 @@ export default function AboutMesquite() {
               </h2>
             </div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Mesquite's prime location offers easy access to some of the Southwest's most spectacular natural wonders 
+              Mesquite&apos;s prime location offers easy access to some of the Southwest&apos;s most spectacular natural wonders 
               and entertainment destinations.
             </p>
           </div>
@@ -179,7 +205,7 @@ export default function AboutMesquite() {
               <FaMountain className="text-indigo-900 text-4xl mb-4" />
               <h3 className="text-xl font-bold text-indigo-900 mb-3">Zion National Park</h3>
               <p className="text-gray-600 mb-4">
-                Just a short drive away, explore the stunning red rock canyons and hiking trails of one of America's 
+                Just a short drive away, explore the stunning red rock canyons and hiking trails of one of America&apos;s 
                 most beautiful national parks.
               </p>
               <p className="text-sm text-indigo-600 font-semibold">~1 hour drive</p>
@@ -217,7 +243,7 @@ export default function AboutMesquite() {
                 The welcoming community and relaxed pace of life make it an ideal place to call home.
               </p>
               <p className="text-base text-gray-600 mb-6">
-                Whether you're looking for a retirement destination, a vacation home, or a permanent residence, 
+                Whether you&apos;re looking for a retirement destination, a vacation home, or a permanent residence, 
                 Mesquite offers a lifestyle that combines natural beauty, recreational opportunities, and modern conveniences.
               </p>
               <div className="bg-indigo-100 p-6 rounded-lg">
@@ -266,7 +292,7 @@ export default function AboutMesquite() {
                 Mesquite Welcome Center
               </h2>
               <p className="text-gray-600 mb-4">
-                Discover brochures, maps, directions, and what's happening in Mesquite from friendly volunteers. 
+                Discover brochures, maps, directions, and what&apos;s happening in Mesquite from friendly volunteers. 
                 Clean restrooms on-site and plenty of parking for vehicles of all sizes.
               </p>
               <div className="bg-white p-4 rounded-lg">
