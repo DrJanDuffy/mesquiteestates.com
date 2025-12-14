@@ -123,7 +123,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/communities/sun-city-mesquite"
+                  href="/Sun_City_Mesquite"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
                   Sun City Mesquite (55+)
