@@ -49,7 +49,7 @@ export default function Navbar() {
           >
             <div className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-1 xl:space-x-4 p-4 lg:p-0">
               {[
-                { href: "/Dashboard", label: "Dashboard" },
+                { href: "/Dashboard", label: "Market Analysis" },
                 { href: "/Property/Property_type", label: "Properties" },
                 { href: "/Mesquite_Homes_For_Sale", label: "Homes for Sale" },
                 { href: "/Golf_Homes_Mesquite", label: "Golf Homes" },
