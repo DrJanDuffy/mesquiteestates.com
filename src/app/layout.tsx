@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { siteConfig } from "@/config/siteConfig";
 import AccessibilityWidget from "@/components/common/AccessibilityWidget";
@@ -82,18 +83,27 @@ export default function RootLayout({
               --rs-ss-font-primary-color: #000000;
               --rs-ss-searchbar-border-color: #8b572a;
               --rs-ss-box-shadow: 0 10px 15px -3px #0000001a;
-              --rs-ss-widget-width: 100% !important;
-              width: 100% !important;
-              min-width: 20rem !important;
-              max-width: 56rem !important;
-              margin: 0 auto;
-              display: block;
-              box-sizing: border-box;
+              --rs-ss-widget-width: 500px !important;
             }
-            @media (min-width: 768px) {
-              realscout-simple-search {
-                min-width: 42rem !important;
-              }
+            realscout-office-listings {
+              --rs-listing-divider-color: #0e64c8;
+              width: 100%;
+            }
+            realscout-advanced-search {
+              --rs-as-button-text-color: #ffffff;
+              --rs-as-background-color: #000000;
+              --rs-as-button-color: #8b572a;
+              --rs-as-widget-width: 500px !important;
+            }
+            realscout-home-value {
+              --rs-hvw-background-color: #ffffff;
+              --rs-hvw-title-color: #000000;
+              --rs-hvw-subtitle-color: rgba(28, 30, 38, 0.5);
+              --rs-hvw-primary-button-text-color: #ffffff;
+              --rs-hvw-primary-button-color: rgb(35, 93, 137);
+              --rs-hvw-secondary-button-text-color: rgb(35, 93, 137);
+              --rs-hvw-secondary-button-color: #ffffff;
+              --rs-hvw-widget-width: auto;
             }
           `
         }} />
@@ -101,6 +111,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <AccessibilityWidget />
+        <script src="https://em.realscout.com/widgets/realscout-web-components.umd.js" type="module" async></script>
       </body>
     </html>
   );

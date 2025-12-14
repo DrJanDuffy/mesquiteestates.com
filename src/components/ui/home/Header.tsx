@@ -16,26 +16,6 @@ export default function Header() {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
     }, 5000);
 
-    // Load RealScout web components (defer to improve initial load)
-    if (typeof window !== 'undefined' && !document.querySelector('script[src*="realscout-web-components"]')) {
-      // Use requestIdleCallback to defer loading until browser is idle
-      const loadScript = () => {
-        const script = document.createElement('script');
-        script.src = 'https://em.realscout.com/widgets/realscout-web-components.umd.js';
-        script.type = 'module';
-        script.async = true;
-        script.defer = true;
-        document.head.appendChild(script);
-      };
-      
-      if ('requestIdleCallback' in window) {
-        requestIdleCallback(loadScript, { timeout: 2000 });
-      } else {
-        // Fallback for browsers without requestIdleCallback
-        setTimeout(loadScript, 1000);
-      }
-    }
-
     return () => clearInterval(intervalId);
   }, [images.length]);
 
@@ -64,11 +44,29 @@ export default function Header() {
           ))}
           <div className="relative z-20 p-4 text-center">
             <h1 className="text-xl md:text-2xl lg:text-5xl font-bold text-white mb-2 leading-relaxed bg-black/50 rounded-md p-2">
-              Enjoy a Unique Getaway in Mesquite, Nevada
+              Mesquite Nevada Homes for Sale
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-white mb-4 bg-black/50 rounded-md p-2 mx-auto max-w-3xl">
-              Find Your Dream Home in Mesquite Estates | About an Hour North of Las Vegas
+            <h2 className="text-lg md:text-xl lg:text-3xl font-semibold text-white mb-2 bg-black/50 rounded-md p-2">
+              Golf Course Living • 55+ Communities • Custom Lots from $70K
+            </h2>
+            <p className="text-base md:text-lg lg:text-xl text-white mb-6 bg-black/50 rounded-md p-2 mx-auto max-w-3xl">
+              Just 80 miles from Las Vegas in the stunning Virgin River Valley
             </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 items-center justify-center mb-4 max-w-4xl mx-auto w-full px-4">
+              <a
+                href="/Mesquite_Homes_For_Sale"
+                className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-lg"
+              >
+                Search Homes
+              </a>
+              <a
+                href="tel:702-718-2228"
+                className="bg-white hover:bg-gray-100 text-orange-600 font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-lg"
+              >
+                Call/Text 702-718-2228
+              </a>
+            </div>
 
             <div className="flex items-center justify-center mb-4 max-w-4xl mx-auto w-full px-4">
               <realscout-simple-search agent-encoded-id="QWdlbnQtMjI1MDUw"></realscout-simple-search>

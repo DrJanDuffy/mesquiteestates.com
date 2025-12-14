@@ -9,6 +9,8 @@ export default function StructuredData() {
     url: siteConfig.url,
     image: `${siteConfig.url}/Image/hero_bg_1.jpg`,
     logo: `${siteConfig.url}/Image/hero_bg_1.jpg`,
+    telephone: ['+1-702-718-2228', '+1-702-500-1955'],
+    email: 'DrDuffy@MesquiteEstates.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '1155 W Pioneer Blvd Suite 104-D',
@@ -22,7 +24,7 @@ export default function StructuredData() {
       name: 'Mesquite',
       addressRegion: 'NV',
     },
-    priceRange: '$360K-$700K',
+    priceRange: '$70,000-$700,000',
     memberOf: {
       '@type': 'Organization',
       name: 'Berkshire Hathaway HomeServices Nevada Properties',

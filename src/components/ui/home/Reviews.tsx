@@ -14,35 +14,21 @@ interface Review {
 }
 
 const reviews: Review[] = [
-  {
-    id: 1,
-    name: "John Doe",
-    review: "Excellent service! The team was very helpful in finding my dream home. Highly recommended!",
-    rating: 5,
-    image: "/Image/person1.jpeg",
-  },
-  {
-    id: 2,
-    name: "Jane Smith",
-    review: "Very professional and knowledgeable. They made the home buying process smooth and stress-free.",
-    rating: 4.5,
-    image: "/Image/person_2-min.jpg",
-  },
-  {
-    id: 3,
-    name: "Alice Johnson",
-    review: "Great experience! The team was attentive and responsive to all our needs. Would use again!",
-    rating: 5,
-    image: "/Image/person_4-min.jpg",
-  },
+  // Real testimonials will be added here when available
 ];
 
-const Middle3: React.FC = () => (
-  <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
-    <div className="container mx-auto">
-      <h2 className="text-3xl font-extrabold text-center text-indigo-900 mb-12">What Our Customers Say</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {reviews.map((review) => (
+const Middle3: React.FC = () => {
+  // Hide section if no reviews available
+  if (reviews.length === 0) {
+    return null;
+  }
+
+  return (
+    <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto">
+        <h2 className="text-3xl font-extrabold text-center text-indigo-900 mb-12">Client Success Stories</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          {reviews.map((review) => (
           <motion.div
             key={review.id}
             className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center"
@@ -64,10 +50,11 @@ const Middle3: React.FC = () => (
             </div>
             <p className="text-gray-600 text-center">{review.review}</p>
           </motion.div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export default Middle3

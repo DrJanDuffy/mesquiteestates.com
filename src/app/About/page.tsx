@@ -142,68 +142,24 @@ export default function About() {
           </p>
           
           <div className="py-10 px-4 bg-gray-100">
-            <div className="max-w-7xl mx-auto">
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                <div className="text-center">
-                  <div className="relative w-56 h-56 mx-auto mb-4">
-                    <Image
-                      src="/Image/person1.jpeg"
-                      alt="John Doe"
-                      layout="fill"
-                      objectFit="cover"
-                      className="rounded-full shadow-lg"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold text-indigo-900">
-                    Dr. Jan Duffy
-                  </h3>
-                  <p className="text-gray-600">Mesquite Realtor | BHHS Nevada Properties</p>
+            <div className="max-w-4xl mx-auto">
+              <div className="text-center">
+                <div className="relative w-56 h-56 mx-auto mb-4">
+                  <Image
+                    src="/Image/agent1.jpg"
+                    alt="Dr. Jan Duffy"
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-full shadow-lg"
+                  />
                 </div>
-                <div className="text-center">
-                  <div className="relative w-56 h-56 mx-auto mb-4">
-                    <Image
-                      src="/Image/person_2-min.jpg"
-                      alt="Jane Smith"
-                      layout="fill"
-                      objectFit="cover"
-                      className="rounded-full shadow-lg"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold text-indigo-900">
-                    BHHS Nevada Properties Team
-                  </h3>
-                  <p className="text-gray-600">Real Estate Professionals</p>
-                </div>
-                <div className="text-center">
-                  <div className="relative w-56 h-56 mx-auto mb-4">
-                    <Image
-                      src="/Image/person_3-min.jpg"
-                      alt="Michael Johnson"
-                      layout="fill"
-                      objectFit="cover"
-                      className="rounded-full shadow-lg"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold text-indigo-900">
-                    Mesquite Real Estate Specialists
-                  </h3>
-                  <p className="text-gray-600">Golf Homes & Property Experts</p>
-                </div>
-                <div className="text-center">
-                  <div className="relative w-56 h-56 mx-auto mb-4">
-                    <Image
-                      src="/Image/agent1.jpg"
-                      alt="Emily Davis"
-                      layout="fill"
-                      objectFit="cover"
-                      className="rounded-full shadow-lg"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold text-indigo-900">
-                    Customer Service Team
-                  </h3>
-                  <p className="text-gray-600">Client Support & Consultation</p>
-                </div>
+                <h3 className="text-xl font-bold text-indigo-900">
+                  Dr. Jan Duffy
+                </h3>
+                <p className="text-gray-600">Mesquite Realtor | BHHS Nevada Properties</p>
+                <p className="text-sm text-gray-500 mt-2">
+                  Nevada REALTOR® License #S.0197614.LLC
+                </p>
               </div>
             </div>
           </div>

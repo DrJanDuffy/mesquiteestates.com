@@ -9,6 +9,29 @@ declare global {
       > & {
         'agent-encoded-id'?: string;
       };
+      'realscout-office-listings': React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      > & {
+        'agent-encoded-id'?: string;
+        'sort-order'?: string;
+        'listing-status'?: string;
+        'property-types'?: string;
+        'price-min'?: string;
+        'price-max'?: string;
+      };
+      'realscout-advanced-search': React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      > & {
+        'agent-encoded-id'?: string;
+      };
+      'realscout-home-value': React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      > & {
+        'agent-encoded-id'?: string;
+      };
     }
   }
 }

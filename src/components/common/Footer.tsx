@@ -19,7 +19,11 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-2xl mb-6">Mesquite Estates</h3>
             <p className="text-indigo-200 mb-4">
-              Homes by Dr. Jan Duffy, BHHS Nevada Properties. Custom lots from $70K, homes $360K-$700K in beautiful Mesquite, Nevada.
+              Homes by Dr. Jan Duffy<br />
+              BHHS Nevada Properties
+            </p>
+            <p className="text-2xl font-bold text-orange-400 mb-4">
+              <a href="tel:702-718-2228">702-718-2228</a>
             </p>
             <div className="flex space-x-4">
               {[faTwitter, faFacebookF, faLinkedinIn, faInstagram].map((icon, index) => (
@@ -43,7 +47,7 @@ const Footer = () => {
                   href="/Mesquite_Homes_For_Sale"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  Homes for Sale in Mesquite
+                  Homes for Sale
                 </Link>
               </li>
               <li>
@@ -51,7 +55,15 @@ const Footer = () => {
                   href="/Golf_Homes_Mesquite"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  Golf Homes in Mesquite
+                  Golf Homes
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/communities/sun-city-mesquite"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Sun City Mesquite
                 </Link>
               </li>
               <li>
@@ -59,15 +71,15 @@ const Footer = () => {
                   href="/Buying_Home_Mesquite"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  Buying a Home in Mesquite
+                  Buying Guide
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/Mesquite_Realtor_Services"
+                  href="/sell-your-mesquite-home"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  Realtor Services
+                  Sell Your Home
                 </Link>
               </li>
               <li>
@@ -78,36 +90,59 @@ const Footer = () => {
                   About Mesquite
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          {/* Communities Section */}
+          <div>
+            <h3 className="font-bold text-xl mb-6">Communities</h3>
+            <ul className="space-y-3">
               <li>
                 <Link
-                  href="/Mesquite_Golf_Trip"
+                  href="/communities/sun-city-mesquite"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  Golf Trip Guide
+                  Sun City Mesquite (55+)
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/Mesquite_Transportation"
+                  href="/communities/falcon-ridge"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  Transportation
+                  Falcon Ridge
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/Mesquite_Weather"
+                  href="/communities/mesquite-vistas"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  Mesquite Weather
+                  Mesquite Vistas
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/Contact_us"
+                  href="/communities/highland-villas"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
-                  Contact Dr. Jan Duffy
+                  Highland Villas
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Golf_Homes_Mesquite"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Golf Course Homes
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/55-plus-communities-mesquite"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  55+ Communities
                 </Link>
               </li>
             </ul>
@@ -162,39 +197,32 @@ const Footer = () => {
 
           {/* Contact Section */}
           <div>
-            <h3 className="font-bold text-xl mb-6">Contact Us</h3>
-            <ul className="space-y-4">
-              <li className="flex items-center">
-                <FontAwesomeIcon icon={faMapMarkerAlt} className="h-5 w-5 mr-3 text-indigo-300" />
-                <span className="text-indigo-200">Mesquite, Nevada<br />Virgin River Valley</span>
-              </li>
-              <li className="flex items-start">
+            <h3 className="font-bold text-xl mb-6">Contact Dr. Jan</h3>
+            <address className="text-indigo-200 not-italic space-y-3">
+              <div className="flex items-start">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="h-5 w-5 mr-3 text-indigo-300 mt-1" />
-                <span className="text-indigo-200 text-sm">
+                <span className="text-sm">
                   1155 W Pioneer Blvd<br />
                   Suite 104-D<br />
                   Mesquite, NV 89027
                 </span>
-              </li>
-              <li className="flex items-center">
+              </div>
+              <div className="flex items-center">
+                <FontAwesomeIcon icon={faPhone} className="h-5 w-5 mr-3 text-indigo-300" />
+                <a href="tel:702-718-2228" className="hover:text-white transition duration-300">
+                  702-718-2228
+                </a>
+              </div>
+              <div className="flex items-center">
                 <FontAwesomeIcon icon={faEnvelope} className="h-5 w-5 mr-3 text-indigo-300" />
                 <a
                   href="mailto:DrDuffy@MesquiteEstates.com"
-                  className="text-indigo-200 hover:text-white transition duration-300"
+                  className="hover:text-white transition duration-300 text-sm"
                 >
                   DrDuffy@MesquiteEstates.com
                 </a>
-              </li>
-              <li className="flex items-center mt-2">
-                <FontAwesomeIcon icon={faPhone} className="h-5 w-5 mr-3 text-indigo-300" />
-                <Link
-                  href="/Contact_us"
-                  className="text-indigo-200 hover:text-white transition duration-300"
-                >
-                  Contact Dr. Jan Duffy
-                </Link>
-              </li>
-            </ul>
+              </div>
+            </address>
           </div>
         </div>
 
@@ -204,7 +232,8 @@ const Footer = () => {
             © {new Date().getFullYear()} Mesquite Estates. All Rights Reserved.
           </p>
           <p className="mt-2">
-            Dr. Jan Duffy, BHHS Nevada Properties
+            Dr. Jan Duffy | Nevada REALTOR® License #S.0197614.LLC<br />
+            Berkshire Hathaway HomeServices Nevada Properties
           </p>
         </div>
       </div>

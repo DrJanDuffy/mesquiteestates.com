@@ -20,6 +20,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/Mesquite_Transportation',
     '/Mesquite_Weather',
     '/Property',
+    '/communities',
+    '/communities/sun-city-mesquite',
+    '/communities/falcon-ridge',
+    '/communities/mesquite-vistas',
+    '/communities/highland-villas',
+    '/55-plus-communities-mesquite',
+    '/sell-your-mesquite-home',
   ]
 
   return staticPages.map((route) => ({

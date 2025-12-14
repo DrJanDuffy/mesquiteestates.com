@@ -20,9 +20,18 @@ export default function Navbar() {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 bg-white shadow-md py-4 md:py-5 transition-all duration-300 ${isScrolled ? 'py-2 md:py-3' : ''}`}>
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center">
+    <>
+      {/* Top Phone Bar - Desktop Only */}
+      <div className="hidden md:block fixed top-0 left-0 right-0 z-50 bg-gray-900 text-white py-2">
+        <div className="container mx-auto px-4 flex justify-end">
+          <a href="tel:702-718-2228" className="text-sm font-semibold hover:text-orange-400 transition duration-300">
+            📞 Call/Text: 702-718-2228
+          </a>
+        </div>
+      </div>
+      <nav className={`fixed top-0 md:top-8 left-0 right-0 z-50 bg-white shadow-md py-4 md:py-5 transition-all duration-300 ${isScrolled ? 'py-2 md:py-3 md:top-0' : ''}`}>
+        <div className="container mx-auto px-4">
+          <div className="flex justify-between items-center">
           {/* Brand Logo */}
           <Link
             href="/"
@@ -55,18 +64,13 @@ export default function Navbar() {
           >
             <div className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-1 xl:space-x-4 p-4 lg:p-0">
               {[
-                { href: "/Dashboard", label: "Market Analysis" },
-                { href: "/Property/Property_type", label: "Properties" },
                 { href: "/Mesquite_Homes_For_Sale", label: "Homes for Sale" },
                 { href: "/Golf_Homes_Mesquite", label: "Golf Homes" },
-                { href: "/Mesquite_Golf_Trip", label: "Golf Trip" },
-                { href: "/Services", label: "Services" },
-                { href: "/About", label: "About Us" },
+                { href: "/communities/sun-city-mesquite", label: "55+ Living" },
                 { href: "/About_Mesquite", label: "About Mesquite" },
-                { href: "/Buying_Home_Mesquite", label: "Buying Guide" },
-                { href: "/Mesquite_Realtor_Services", label: "Realtor Services" },
+                { href: "/Services", label: "Services" },
+                { href: "/Dashboard", label: "Market Analysis" },
                 { href: "/Contact_us", label: "Contact" },
-                { href: "/Login", label: "Login" },
               ].map((link) => (
                 <Link
                   key={link.href}
@@ -77,9 +81,16 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
+            <a 
+              href="tel:702-718-2228" 
+              className="bg-orange-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-600 transition duration-300 ml-4 hidden lg:inline-block"
+            >
+              702-718-2228
+            </a>
           </div>
         </div>
       </div>
     </nav>
+    </>
   );
 }

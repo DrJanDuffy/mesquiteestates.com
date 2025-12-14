@@ -18,26 +18,10 @@ const agents: Agent[] = [
   {
     id: 1,
     name: "Dr. Jan Duffy",
-    role: "Mesquite Estates Specialist",
+    role: "Mesquite Real Estate Specialist",
     image: "/Image/agent1.jpg",
-    specialties: ["Mesquite Properties", "Custom Lots", "BHHS Nevada Properties"],
+    specialties: ["Mesquite Properties", "Golf Course Homes", "55+ Communities", "Custom Lots", "BHHS Nevada Properties"],
     rating: 5,
-  },
-  {
-    id: 2,
-    name: "BHHS Team",
-    role: "Real Estate Experts",
-    image: "/Image/agent1.jpg",
-    specialties: ["Home Sales", "Investment Properties", "Property Consultation"],
-    rating: 5,
-  },
-  {
-    id: 3,
-    name: "Mesquite Specialists",
-    role: "Area Experts",
-    image: "/Image/agent1.jpg",
-    specialties: ["Golf Course Communities", "Resort Properties", "Desert Living"],
-    rating: 4.8,
   },
 ];
 
@@ -85,9 +69,15 @@ const AgentCard: React.FC<AgentCardProps> = ({ agent }) => (
         ))}
       </div>
       <div className="flex space-x-4 mt-4">
-        <FaPhoneAlt className="text-indigo-900 hover:text-indigo-800 cursor-pointer" />
-        <FaEnvelope className="text-indigo-900 hover:text-indigo-800 cursor-pointer" />
-        <FaLinkedin className="text-indigo-900 hover:text-indigo-800 cursor-pointer" />
+        <a href="tel:702-718-2228" aria-label="Call Dr. Jan Duffy">
+          <FaPhoneAlt className="text-indigo-900 hover:text-indigo-800 cursor-pointer" />
+        </a>
+        <a href="mailto:DrDuffy@MesquiteEstates.com" aria-label="Email Dr. Jan Duffy">
+          <FaEnvelope className="text-indigo-900 hover:text-indigo-800 cursor-pointer" />
+        </a>
+        <a href="/Contact_us" aria-label="Contact Dr. Jan Duffy">
+          <FaLinkedin className="text-indigo-900 hover:text-indigo-800 cursor-pointer" />
+        </a>
       </div>
     </div>
   </motion.div>
@@ -98,9 +88,9 @@ export default function AgentShowcase() {
     <section className="bg-gradient-to-b from-gray-50 to-white px-4 sm:px-6 lg:px-72 mb-20">
       <div className="container mx-auto">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-center text-indigo-900 py-10">
-          Meet Our Real Estate Team
+          Your Mesquite Real Estate Expert
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 max-w-2xl mx-auto gap-8">
           {agents.map((agent) => (
             <AgentCard key={agent.id} agent={agent} />
           ))}
