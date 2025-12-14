@@ -15,11 +15,17 @@ export default function About() {
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 mb-4">
             About Mesquite Estates
           </h1>
-          <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto mb-6">
             Mesquite Estates offers beautiful homes and custom lots in Mesquite, Nevada, a friendly small-town 
             destination nestled in the scenic Virgin River Valley, just an hour north of Las Vegas. We are committed 
             to excellence and dedicated to helping you find your dream home in this desert paradise.
           </p>
+          <a
+            href="tel:702-718-2228"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xl px-8 py-4 rounded-lg transition duration-300 shadow-lg"
+          >
+            📞 Call/Text: 702-718-2228
+          </a>
         </section>
 
         <section className="mb-16">

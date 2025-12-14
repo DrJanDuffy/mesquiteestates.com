@@ -17,11 +17,17 @@ export default function MesquiteGolfTrip() {
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 mb-4">
             The Ultimate Golf Trip to Mesquite, Nevada | Plan Your Perfect Golf Getaway
           </h1>
-          <p className="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto mb-6">
             Planning a golf getaway? Look no further than Mesquite, Nevada. This desert gem is a premier golf destination with 
             everything you need for an unforgettable trip, including over 300 days of sunshine, seven championship golf courses, 
             and luxurious accommodations. Dr. Jan Duffy helps golf enthusiasts find the perfect golf homes in Mesquite for year-round enjoyment.
           </p>
+          <a
+            href="tel:702-718-2228"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xl px-8 py-4 rounded-lg transition duration-300 shadow-lg"
+          >
+            📞 Call/Text: 702-718-2228
+          </a>
         </section>
 
         {/* H2 Section 1 */}
@@ -278,26 +284,32 @@ export default function MesquiteGolfTrip() {
         </section>
 
         {/* Call to Action */}
-        <section className="text-center bg-indigo-900 text-white p-12 rounded-lg">
+        <section className="text-center bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-12 rounded-lg shadow-lg">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             Plan Your Golf Trip to Mesquite Today
           </h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
+          <p className="text-xl mb-8 max-w-3xl mx-auto text-indigo-100">
             Start planning your ultimate golf trip to Mesquite, Nevada. With seven championship courses, year-round sunshine, and luxurious 
             accommodations, your perfect golf getaway awaits. Contact Dr. Jan Duffy to explore golf homes in Mesquite for year-round golf access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:702-718-2228"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition duration-300 shadow-lg"
+            >
+              📞 Call/Text 702-718-2228
+            </a>
             <Link
               href="/Golf_Homes_Mesquite"
-              className="bg-white text-indigo-900 px-8 py-3 rounded-md font-semibold hover:bg-indigo-50 transition duration-300"
+              className="bg-white text-indigo-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300"
             >
               View Golf Homes
             </Link>
             <Link
               href="/Contact_us"
-              className="bg-indigo-700 text-white px-8 py-3 rounded-md font-semibold hover:bg-indigo-600 transition duration-300"
+              className="bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-600 transition duration-300"
             >
-              Contact Dr. Jan Duffy
+              Contact Form
             </Link>
           </div>
         </section>

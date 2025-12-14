@@ -50,10 +50,16 @@ export default function CommunitiesPage() {
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 mb-4">
             Mesquite Communities
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto mb-6">
             Explore the diverse neighborhoods and communities that make Mesquite, Nevada a special place to call home. 
             From 55+ active adult communities to golf course living, find the perfect community for your lifestyle.
           </p>
+          <a
+            href="tel:702-718-2228"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xl px-8 py-4 rounded-lg transition duration-300 shadow-lg"
+          >
+            📞 Call/Text: 702-718-2228
+          </a>
         </section>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -94,19 +100,27 @@ export default function CommunitiesPage() {
           ))}
         </div>
 
-        <section className="bg-indigo-50 p-8 rounded-lg text-center">
-          <h2 className="text-2xl font-bold text-indigo-900 mb-4">
+        <section className="bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-8 rounded-lg text-center shadow-lg">
+          <h2 className="text-3xl font-bold mb-4">
             Find Your Perfect Mesquite Community
           </h2>
-          <p className="text-gray-700 mb-6">
+          <p className="text-indigo-100 mb-6 text-lg">
             Let Dr. Jan Duffy help you discover the Mesquite community that&apos;s right for you.
           </p>
-          <a
-            href="tel:702-718-2228"
-            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300"
-          >
-            Call/Text 702-718-2228
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:702-718-2228"
+              className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300 shadow-lg"
+            >
+              📞 Call/Text 702-718-2228
+            </a>
+            <Link
+              href="/Contact_us"
+              className="inline-block bg-white hover:bg-gray-100 text-indigo-900 font-semibold px-8 py-3 rounded-lg transition duration-300"
+            >
+              Contact Form
+            </Link>
+          </div>
         </section>
       </div>
       <Footer />

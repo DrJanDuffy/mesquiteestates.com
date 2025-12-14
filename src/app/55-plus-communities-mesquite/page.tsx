@@ -15,10 +15,16 @@ export default function FiftyFivePlusCommunities() {
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 mb-4">
             55+ Communities in Mesquite, Nevada
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto mb-6">
             Discover active adult living in Mesquite&apos;s premier 55+ communities, featuring resort-style amenities, 
             championship golf, and vibrant social lifestyles perfect for retirees and active adults.
           </p>
+          <a
+            href="tel:702-718-2228"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xl px-8 py-4 rounded-lg transition duration-300 shadow-lg"
+          >
+            📞 Call/Text: 702-718-2228
+          </a>
         </section>
 
         <section className="mb-16">
@@ -120,17 +126,25 @@ export default function FiftyFivePlusCommunities() {
           </div>
         </section>
 
-        <section className="bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-8 rounded-lg text-center">
+        <section className="bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-8 rounded-lg text-center shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Retire in Mesquite, Nevada</h2>
-          <p className="text-xl mb-6">
+          <p className="text-xl mb-6 text-indigo-100">
             Let Dr. Jan Duffy help you find the perfect 55+ community home in Mesquite.
           </p>
-          <a
-            href="tel:702-718-2228"
-            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300"
-          >
-            Call/Text 702-718-2228
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:702-718-2228"
+              className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300 shadow-lg"
+            >
+              📞 Call/Text 702-718-2228
+            </a>
+            <Link
+              href="/Contact_us"
+              className="inline-block bg-white hover:bg-gray-100 text-indigo-900 font-semibold px-8 py-3 rounded-lg transition duration-300"
+            >
+              Contact Form
+            </Link>
+          </div>
         </section>
       </div>
       <Footer />

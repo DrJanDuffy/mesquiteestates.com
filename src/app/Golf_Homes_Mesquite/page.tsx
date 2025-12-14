@@ -17,10 +17,16 @@ export default function GolfHomesMesquite() {
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 mb-4">
             Golf Homes in Mesquite, Nevada | Luxury Living on Premier Golf Courses
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto mb-6">
             Discover exceptional golf homes in Mesquite, Nevada with Dr. Jan Duffy, your trusted Mesquite realtor. 
             Explore luxury homes and custom lots from $70K to $700K on championship golf courses in the beautiful Virgin River Valley.
           </p>
+          <a
+            href="tel:702-718-2228"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xl px-8 py-4 rounded-lg transition duration-300 shadow-lg"
+          >
+            📞 Call/Text: 702-718-2228
+          </a>
         </section>
 
         {/* H2 Section 1 */}
@@ -227,26 +233,32 @@ export default function GolfHomesMesquite() {
         </section>
 
         {/* Call to Action */}
-        <section className="text-center bg-indigo-900 text-white p-12 rounded-lg">
+        <section className="text-center bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-12 rounded-lg shadow-lg">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             Find Your Dream Golf Home in Mesquite Today
           </h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
+          <p className="text-xl mb-8 max-w-3xl mx-auto text-indigo-100">
             Contact Dr. Jan Duffy, your trusted Mesquite realtor, to explore golf homes for sale. 
             Discover luxury homes and custom lots from $70K to $700K on championship golf courses.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:702-718-2228"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition duration-300 shadow-lg"
+            >
+              📞 Call/Text 702-718-2228
+            </a>
             <Link
               href="/Property/Property_type"
-              className="bg-white text-indigo-900 px-8 py-3 rounded-md font-semibold hover:bg-indigo-50 transition duration-300"
+              className="bg-white text-indigo-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300"
             >
               View Golf Homes
             </Link>
             <Link
               href="/Contact_us"
-              className="bg-indigo-700 text-white px-8 py-3 rounded-md font-semibold hover:bg-indigo-600 transition duration-300"
+              className="bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-600 transition duration-300"
             >
-              Contact Dr. Jan Duffy
+              Contact Form
             </Link>
           </div>
         </section>

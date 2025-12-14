@@ -125,17 +125,25 @@ export default function SunCityMesquite() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-8 rounded-lg text-center mb-16">
+        <section className="bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-8 rounded-lg text-center mb-16 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Find Your Sun City Mesquite Home</h2>
-          <p className="text-xl mb-6">
+          <p className="text-xl mb-6 text-indigo-100">
             Let Dr. Jan Duffy help you find the perfect home in Sun City Mesquite.
           </p>
-          <a
-            href="tel:702-718-2228"
-            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300"
-          >
-            Call/Text 702-718-2228
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:702-718-2228"
+              className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-lg transition duration-300 shadow-lg"
+            >
+              📞 Call/Text 702-718-2228
+            </a>
+            <Link
+              href="/Contact_us"
+              className="inline-block bg-white hover:bg-gray-100 text-indigo-900 font-semibold px-8 py-3 rounded-lg transition duration-300"
+            >
+              Contact Form
+            </Link>
+          </div>
         </section>
 
         {/* FAQ Section */}
