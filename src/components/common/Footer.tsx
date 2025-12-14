@@ -80,6 +80,30 @@ const Footer = () => {
               </li>
               <li>
                 <Link
+                  href="/Mesquite_Golf_Trip"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Golf Trip Guide
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Mesquite_Transportation"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Transportation
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Mesquite_Weather"
+                  className="text-indigo-200 hover:text-white transition duration-300"
+                >
+                  Mesquite Weather
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/Contact_us"
                   className="text-indigo-200 hover:text-white transition duration-300"
                 >
