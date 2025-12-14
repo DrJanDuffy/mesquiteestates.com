@@ -17,13 +17,19 @@ export default function AboutMesquite() {
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 mb-4">
             Welcome to Mesquite, Nevada | Discover Homes and Golf Course Living in the Virgin River Valley
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto mb-6">
             About an hour north of Las Vegas, you&apos;ll find Mesquite, a small town nestled in the picturesque Virgin River Valley. 
             Surrounded by scenic vistas and flat-top red mesas, this friendly, small-town destination is complemented by welcoming 
             resorts, seven golf courses within a 10-minute drive, and its close proximity to national and state parks. Dr. Jan Duffy, 
             your trusted Mesquite realtor, specializes in helping clients discover beautiful homes and golf course properties in this 
             premier desert destination.
           </p>
+          <a
+            href="tel:702-718-2228"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xl px-8 py-4 rounded-lg transition duration-300 shadow-lg"
+          >
+            📞 Call/Text: 702-718-2228
+          </a>
         </section>
 
         {/* Location & Geography */}
@@ -306,26 +312,32 @@ export default function AboutMesquite() {
         </section>
 
         {/* Call to Action */}
-        <section className="text-center bg-indigo-900 text-white p-12 rounded-lg">
+        <section className="text-center bg-gradient-to-r from-indigo-600 to-indigo-800 text-white p-12 rounded-lg shadow-lg">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             Find Your Dream Home in Mesquite Estates
           </h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
+          <p className="text-xl mb-8 max-w-3xl mx-auto text-indigo-100">
             Custom lots from $70K, homes $360K-$700K. Experience the perfect blend of natural beauty, 
             recreational opportunities, and small-town charm.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:702-718-2228"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition duration-300 shadow-lg"
+            >
+              📞 Call/Text 702-718-2228
+            </a>
             <Link
               href="/Property/Property_type"
-              className="bg-white text-indigo-900 px-8 py-3 rounded-md font-semibold hover:bg-indigo-50 transition duration-300"
+              className="bg-white text-indigo-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300"
             >
               Browse Properties
             </Link>
             <Link
               href="/Contact_us"
-              className="bg-indigo-700 text-white px-8 py-3 rounded-md font-semibold hover:bg-indigo-600 transition duration-300"
+              className="bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-600 transition duration-300"
             >
-              Contact Dr. Jan Duffy
+              Contact Form
             </Link>
           </div>
         </section>
